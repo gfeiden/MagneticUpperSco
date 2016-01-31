@@ -1,0 +1,60 @@
+Referee Report
+
+"Magnetic Inhibition of Convection and the Fundamental Properties of Low-Mass Stars III. A consistent age for the Upper Scorpius OB Association"
+by G. A. Feiden
+
+I have carefully reviewed the manuscript dealing with the use of magnetic stellar evolution models to address the problem of inconsistent ages across different stellar types in young stellar systems, in this case the Upper Sco OB association. The use of equipartition to set the surface magnetic field strength is an elegant choice; it's always better to reduce the number of free parameters in favor of physically-motivated arguments.
+
+The paper addresses the problem that these systems often show different ages depending on what stellar type is being studied with, for example, the case that the stars on the main sequence yield one age while the stars still in pre-main sequence contraction yield another. The explanation put forward by the author is that that magnetic inhibition of convection, preferentially acting on the lower-mass, pre-main sequence stars slows the contraction thus bringing the ages back into agreement.
+
+The paper is clear and well written. It should be published after a few minor comments have been addressed:
+
+>> 1. In the introduction and in the discussion of Li depletion, it is worthwhile to mention the recent paper on the same subject by MacDonald & Mullen (2015, MNRAS, 448, 2019).
+
+A new paragraph was created to better bridge paragraphs 2 and 3 in the introduction of the previous manuscript. This paragraph incorporates a reference to the recent lithium depletion work by MacDonald & Mullan (2015). In addition, further references have been added to the discussion section.
+
+>> 2. **I appreciate that the following may be difficult to accomplish given the current state of the field, so I only ask the author to comment on the following, and discuss possible directions for future study.** The equipartition argument derives the surface gas pressure from atmosphere models that neglect magnetic fields. Whereas a self-consistent treatment would be more appropriate. What is required in order for the atmosphere and interior to be treated on equal footing w.r.t. magnetic field?
+
+It's very true that it's difficult to address this problem given the current state of the field. 
+
+I think there are two parts to this question, the first of which is whether a separate treatment of the interior and atmosphere biases the determination of equipartition magnetic field strengths. I suspect that the lack of a consistent treatment will not significantly impact the determination of equipartition magnetic field strengths. This is perhaps somewhat related to the discussion of starspots, below. But, the equipartition magnetic field strength in sun/starspots is determined by the gas pressure outside of the magnetic structure. 
+
+This is only a zeroth order approximation, as imaging that spots now cover the entirety of a star's surface effectively indicates that there is no ambient gas pressure. However, by steadily replacing parcels of ambient gas with a magnetized parcel, pressure balance in the horizontal direction would remain about the same. 
+This brings us to the second question about actually developing a self-consistent model.
+
+To treat the interior and atmosphere self-consistently, one would need to implement realistic physics for the atmosphere 
+
+
+>> 3. In Section 3 we see (Figure 1) that the magnetic isochrone does not extend to such high masses as the standard models. We have to wait until Section 5 to learn why. It would be useful to the reader to have this information up front.
+
+Agreed, this information should be presented earlier. It is now discussed in Section 2, although in a slightly revised context. (see point 5 below)
+
+>> 4. I also note that the different panels of Figure 1 are not labelled although they are referred to as a,b,c in the caption and text.
+
+Panels in Figure 1 are now labelled properly. 
+
+>> 5. The issue of what happens to higher mass stars than are modelled with magnetic fields in this paper is extremely important and I would encourage the author to discuss briefly what the issues with convergence are.  This will help the reader to understand the problem and may also help others who wish to work on magnetic models in the future as to what problems they may expect to encounter.  As I read it, it seems that the problem with surface magnetic fields occurs just as we would expect the surface convection zone to disappear above 1 Msol.
+
+An astute analysis by the reviewer. Numerical issues that arise with higher mass stars appear to occur as a direct consequence of the disappearing convective envelope. While under review, a temporary patch was included to allow models to evolve through this phase of evolution. This is not necessarily physically realistic, but this is also a regime where the constant equipartition magnetic field strength argument breaks down as the equipartition magnetic field strength is rapidly changing. The temporary fix is mentioned in Section 2 and more text is devoted to the problem in Section 5.
+
+>> 6. To quote the estimated age of the system as 9-10 Myr, rather than 9.5 /-0.5 Myr, is perhaps more appropriate to the way the age is treated in the paper. We only see models with ages 5, 10, 15 Myr and no statistical analysis is done.
+
+This is a fair point. The estimated age is now quoted as 9 - 10 Myr.
+
+>> 7. The stars above which no magnetic models are available are very close to the regime where they will arrive on the main sequence (as noted in the text to begin H-burning in the core), and since such models should have no surface convection zones on the main sequence (M > 1.3 Msol), we might benefit from a more detail about why the models fail to converge. This is certainly of interest to modellers who may try to conduct similar studies.
+
+Agreed. As discussed in point 5, a more in-depth discussion of the matter is now provided in Section 5.
+
+>> 8. The discussion of magnetic inhibited convection vs. star spots in curious to me because I would expect that they are each a manifestation of the same underlying phenomenon, i.e., magnetic fields in the outer layers of these stars. In this sense I find that the way the two are presented as distinct effects difficult. This also get back to point #2 above in which it would be very interesting to know whether both can be included in the same models.
+
+>> 9. Can the author produce an age estimate from the decay of apsidal motion in HD 144548? If so, how does it compare with the other estimates?
+
+In short, yes and quite favorably. An initial age estimate based on the apsidal motion rate of the inner binary (Ba/Bb) about the tertiary component (A) in HD 144548 yields an age estimate of 11 +/- 2 Myr. 
+
+While this is encouraging, the above age estimate should be approached with caution. 
+
+The principle difficulty in deriving an age from the apsidal motion rate for HD 144548 is that the "secondary star" in the system is itself a binary. This poses problems when considering the age dating method proposed by Feiden & Dotter (2013). Namely, defining a suitable average interior structure constant (k2) for the inner binary that adequately describes the resulting gravitational potential, and defining a single "radius" for the inner binary. 
+
+>> 10. Finally, I note one reference that may be of interest on the subject of core magnetic fields from Kepler/K2, Fuller et al. 2015 (Science, 350, 423)
+
+Yes, the paper by Fuller et al. on suppression of gravity waves in the cores of red giants is very interesting.
