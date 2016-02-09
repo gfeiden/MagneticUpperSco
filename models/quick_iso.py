@@ -15,16 +15,24 @@ for age in ages:
     print "Processing Age: {:07.1f} Myr".format(age/1.0e6)
     for f in files:
         try:
-            trk = np.genfromtxt(f, skiprows=100, usecols=(0, 1, 2, 3, 4, 8))
+            # import age, log(Teff), log(g), log(L/Lo), log(R/Ro), N(Li), Mconv,env
+            trk = np.genfromtxt(f, skiprows=100, usecols=(2, 6, 5, 3, 4, 56, 8))
         except (IOError, StopIteration):
             print "FAIL: {0}".format(f)
-            continue
-    
+            continue        
+        
+        # convert ages to yr
+        trk[:, 0] = trk[:, 0]*1.0e9
+
+        # convert Li to A(Li)
+        trk[:, 5] = np.log10(trk[:, 5]) + 12.0
+        
+        # interpolate to get properties at desired age 
         mass_index = f.rfind('/') + 2
         mass = float(f[mass_index:mass_index + 4])/1000.
         masses.append(mass)
         try:
-            icurve = AkimaSpline(trk[:, 0], trk[:, 1:])
+            icurve = interp1d(trk[:, 0], trk[:, 1:], kind='linear', axis=0)
         except:
             continue
     
@@ -42,6 +50,7 @@ for age in ages:
 
     header  = 'Dartmouth Stellar Evolution Model: Quick Isochrone \n\n'
     header += 'Age = {:7.1f} Myr   [Fe/H] = {:+5.2f}   [a/Fe] = {:+5.2f} \n\n'.format(age/1.e6, 0.0, 0.0)
-    header += '{:^14} {:^14} {:^14} {:^14} {:^14} {:^14}'.format('Mass', 'log(Teff)', 'log(g)', 'log(L/Lo)', 'log(R/Ro)', 'A(Li)')
-    np.savetxt('./dmestar_{:07.1f}myr_z+0.00_a+0.00_phx.iso'.format(age/1.e6), all_props, fmt='%14.7f', header=header)
+    header += '{:^14} {:^14} {:^14} {:^14} {:^14} {:^14} {:^14}'.format('Mass', 'log(Teff)', 'log(g)', 'log(L/Lo)', 
+                                                                        'log(R/Ro)', 'A(Li)', 'Mconv,env')
+    np.savetxt('./dmestar_{:07.1f}myr_z+0.00_a+0.00_phx_magBeq.iso'.format(age/1.e6), all_props, fmt='%14.7f', header=header)
     del all_props

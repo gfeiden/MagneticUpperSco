@@ -41,8 +41,8 @@ plot "../data/usco_emp_hrd.txt" u (10**$1):3:4 w filledcurves fc rgb "black" fs 
      "../models/iso/std/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 6 notitle, \
      "../models/iso/std/dmestar_00015.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 5 notitle, \
      "../models/iso/mag/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):4 w l ls 2 title "10.0 Myr: {/Symbol \341B\646\361 \75} B_{eq}", \
-     "../data/lodieu.txt" u 6:8:7:9 w xyerrorbars pt 5 ps 1.2 lw 2 lc rgb "gray50" notitle, \
-     "../data/david.txt"  u 6:8:7:9 w xyerrorbars pt 9 ps 1.5 lw 2 lc rgb "gray50" notitle, \
+     "" u (10**$2):4:(sprintf("(%4.2f)", (1.0 - $7/$1))) every 8::14 w labels point pt 6 ps 1.5 lt 4 lw 2 font ",12" offset char 0.7,0.5 notitle, \
+     "../data/lodieu.txt" u 6:8:7:9 w xyerrorbars pt 7 ps 1.5 lw 2 lc rgb "gray20" notitle, \
      "../data/usco5.txt"  u 6:8:7:9 w xyerrorbars pt 7 ps 1.5 lw 2 lc rgb "gray20" notitle
 
 unset label

@@ -15,7 +15,10 @@ set bars small
 set tmargin 2.0
 set bmargin 2.0
 
-set out "HR_diagram_split_USco.ps"
+##################################
+# Zoom-In on HR Diagram Locations
+##################################
+set out "../fig/HR_diagram_split_USco.ps"
 
 set multiplot
 
@@ -35,14 +38,14 @@ set format y "%4.1f"
 
 set label "(b)" at 9500, 0.0 center tc rgb "gray20" font ", 16"
 
-plot "usco_emp_hrd.txt" u (10**$1):3:4 w filledcurves fc rgb "black" fs solid 0.15 notitle, \
+plot "../data/usco_emp_hrd.txt" u (10**$1):3:4 w filledcurves fc rgb "black" fs solid 0.15 notitle, \
      "" u (10**$1):3 w l lw 1 lc rgb "gray80" notitle, \
      "" u (10**$1):4 w l lw 1 lc rgb "gray80" notitle, \
-     '../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso' u (10**$2):4 w l ls 4 notitle, \
-     '../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso' u (10**$2):4 w l ls 6 notitle, \
-     '../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00015.0myr_z+0.00_a+0.00_phx.iso' u (10**$2):4 w l ls 5 notitle, \
-     "/Users/grefe950/evolve/data/beq/models/GS98/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):4 w l ls 2 title "10 Myr: {/Symbol \341B\646\361 \75} B_{eq}", \
-     'usco5.txt' u 6:8:7:9 w xyerrorbars lt 2 pt 7 ps 1.5 lw 2 lc rgb "gray20" notitle
+     "../models/iso/std/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 4 notitle, \
+     "../models/iso/std/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 6 notitle, \
+     "../models/iso/std/dmestar_00015.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 5 notitle, \
+     "../models/iso/mag/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):4 w l ls 2 title "10 Myr: {/Symbol \341B\646\361 \75} B_{eq}", \
+     "../data/usco5.txt" u 6:8:7:9 w xyerrorbars lt 2 pt 7 ps 1.5 lw 2 lc rgb "gray20" notitle
 
 unset label
 
@@ -55,13 +58,12 @@ set yrange [-2.25:0.5]
 
 set label "(c)" at 4800, -1.75 center tc rgb "gray20" font ", 16"
 
-plot "usco_emp_hrd.txt" u (10**$1):3:4 w filledcurves fc rgb "black" fs solid 0.15 notitle, \
+plot "../data/usco_emp_hrd.txt" u (10**$1):3:4 w filledcurves fc rgb "black" fs solid 0.15 notitle, \
      "" u (10**$1):3 w l lw 1 lc rgb "gray80" notitle, \
      "" u (10**$1):4 w l lw 1 lc rgb "gray80" notitle, \
-     '../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso' u (10**$2):4 w l ls 4 notitle, \
-     '../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso' u (10**$2):4 w l ls 6 notitle, \
-     '../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00015.0myr_z+0.00_a+0.00_phx.iso' u (10**$2):4 w l ls 5 notitle, \
-     "/Users/grefe950/evolve/data/beq/models/GS98/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):4 w l ls 2 title "10 Myr: {/Symbol \341B\646\361 \75} B_{eq}", \
-     'usco5.txt'  u 6:8:7:9 w xyerrorbars pt 7 ps 1.5 lw 2 lc rgb "gray20" notitle, \
-     'lodieu.txt' u 6:8:7:9 w xyerrorbars pt 5 ps 1.2 lw 2 lc rgb "gray50" notitle, \
-     'david.txt'  u 6:8:7:9 w xyerrorbars pt 9 ps 1.5 lw 2 lc rgb "gray50" notitle
+     "../models/iso/std/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 4 notitle, \
+     "../models/iso/std/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 6 notitle, \
+     "../models/iso/std/dmestar_00015.0myr_z+0.00_a+0.00_phx.iso" u (10**$2):4 w l ls 5 notitle, \
+     "../models/iso/mag/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):4 w l ls 2 title "10 Myr: {/Symbol \341B\646\361 \75} B_{eq}", \
+     "../data/usco5.txt"  u 6:8:7:9 w xyerrorbars pt 7 ps 1.5 lw 2 lc rgb "gray20" notitle, \
+     "../data/lodieu.txt" u 6:8:7:9 w xyerrorbars pt 5 ps 1.2 lw 2 lc rgb "gray50" notitle

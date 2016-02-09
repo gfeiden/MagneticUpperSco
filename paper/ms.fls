@@ -1,4 +1,4 @@
-PWD /Users/grefe950/Dropbox/Papers/USco
+PWD /Users/grefe950/evolve/papers/MagneticUpperSco/paper
 INPUT /usr/local/texlive/2013/texmf.cnf
 INPUT /usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2013/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -69,8 +69,8 @@ INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
-INPUT natbib.sty
-INPUT natbib.sty
+INPUT /Users/grefe950/Library/texmf/tex/latex/natbib.sty
+INPUT /Users/grefe950/Library/texmf/tex/latex/natbib.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
@@ -345,8 +345,13 @@ INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/txr.vf
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/txmi.vf
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/t1xss.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/t1xsssl.tfm
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/t1xsssl.vf
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxphvro.tfm
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxsssl.tfm
 INPUT radius_bump.eps
 INPUT ./radius_bump.eps
 INPUT ./radius_bump.eps
@@ -356,11 +361,6 @@ INPUT ./radius_bump.eps
 INPUT ./radius_bump-eps-converted-to.pdf
 INPUT ./radius_bump-eps-converted-to.pdf
 INPUT ./radius_bump-eps-converted-to.pdf
-INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/t1xr.vf
-INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/t1xsssl.vf
-INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxphvro.tfm
-INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/txfonts/rtxsssl.tfm
-INPUT /usr/local/texlive/2013/texmf-dist/fonts/vf/public/txfonts/t1xr.vf
 INPUT Li7_USco_Beq.eps
 INPUT ./Li7_USco_Beq.eps
 INPUT ./Li7_USco_Beq.eps
