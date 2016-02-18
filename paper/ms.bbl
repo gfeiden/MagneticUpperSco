@@ -1,5 +1,12 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{60}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Allard} {et~al.}(2011){Allard}, {Homeier}, \&
+  {Freytag}}]{Allard2011}
+{Allard}, F., {Homeier}, D., \& {Freytag}, B. 2011, in Astronomical Society of
+  the Pacific Conference Series, Vol. 448, 16th Cambridge Workshop on Cool
+  Stars, Stellar Systems, and the Sun, ed. C.~{Johns-Krull}, M.~K. {Browning},
+  \& A.~A. {West}, 91
 
 \bibitem[{{Alonso} {et~al.}(2015){Alonso}, {Deeg}, {Hoyer}, {Lodieu}, {Palle},
   \& {Sanchis-Ojeda}}]{Alonso2015}
@@ -50,6 +57,9 @@
 
 \bibitem[{{de Geus}(1992)}]{deGeus1992}
 {de Geus}, E.~J. 1992, \aap, 262, 258
+
+\bibitem[{{de Jager} \& {Nieuwenhuijzen}(1987)}]{deJager1987}
+{de Jager}, C. \& {Nieuwenhuijzen}, H. 1987, \aap, 177, 217
 
 \bibitem[{{de Zeeuw} {et~al.}(1999){de Zeeuw}, {Hoogerwerf}, {de Bruijne},
   {Brown}, \& {Blaauw}}]{deZeeuw1999}

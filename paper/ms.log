@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  18 FEB 2016 14:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  18 FEB 2016 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -988,7 +988,7 @@ Package epstopdf Info: Source file: <USco_median_HRD.eps>
 ted-to.pdf USco_median_HRD.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
-<USco_median_HRD-eps-converted-to.pdf, id=226, 502.87875pt x 465.74pt>
+<USco_median_HRD-eps-converted-to.pdf, id=234, 502.87875pt x 465.74pt>
 File: USco_median_HRD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use USco_median_HRD-eps-converted-to.pdf>
@@ -1011,7 +1011,7 @@ Package epstopdf Info: Source file: <HR_diagram_age_USco.eps>
 nverted-to.pdf HR_diagram_age_USco.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
- <HR_diagram_age_USco-eps-converted-to.pdf, id=276, 501.875pt x 465.74pt>
+ <HR_diagram_age_USco-eps-converted-to.pdf, id=284, 501.875pt x 465.74pt>
 File: HR_diagram_age_USco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use HR_diagram_age_USco-eps-converted-to.pdf>
@@ -1030,19 +1030,34 @@ converted-to.pdf HR_diagram_split_USco.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<HR_diagram_split_USco-eps-converted-to.pdf, id=277, 484.81125pt x 493.845pt>
+<HR_diagram_split_USco-eps-converted-to.pdf, id=285, 484.81125pt x 493.845pt>
 File: HR_diagram_split_USco-eps-converted-to.pdf Graphic file (type pdf)
 
 <use HR_diagram_split_USco-eps-converted-to.pdf>
 Package pdftex.def Info: HR_diagram_split_USco-eps-converted-to.pdf used on inp
 ut line 197.
 (pdftex.def)             Requested size: 225.11436pt x 229.31152pt.
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 205.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 205.
+LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 205.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 213.
+Package hyperref Warning: Suppressing link with empty target on input line 215.
 
 
 [4 <./USco_median_HRD-eps-converted-to.pdf>]
+Underfull \hbox (badness 1132) in paragraph at lines 224--225
+\T1/txr/bx/n/10 re-pro-duces an ob-served tran-si-tion in the em-pir-i-cal HR
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 224--225
+\T1/txr/bx/n/10 di-a-gram where the age in-ferred from stan-dard model
+ []
+
 Package epstopdf Info: Source file: <USCO5_MR.eps>
 (epstopdf)                    date: 2016-02-09 10:26:27
 (epstopdf)                    size: 89209 bytes
@@ -1051,22 +1066,26 @@ Package epstopdf Info: Source file: <USCO5_MR.eps>
 (epstopdf)                    size: 13361 bytes
 (epstopdf)             Command: <repstopdf --outfile=USCO5_MR-eps-converted-to.
 pdf USCO5_MR.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-
-<USCO5_MR-eps-converted-to.pdf, id=318, 505.89pt x 460.72125pt>
+<USCO5_MR-eps-converted-to.pdf, id=334, 505.89pt x 460.72125pt>
 File: USCO5_MR-eps-converted-to.pdf Graphic file (type pdf)
 
 <use USCO5_MR-eps-converted-to.pdf>
-Package pdftex.def Info: USCO5_MR-eps-converted-to.pdf used on input line 220.
+Package pdftex.def Info: USCO5_MR-eps-converted-to.pdf used on input line 230.
 (pdftex.def)             Requested size: 230.46574pt x 209.88861pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 228.
+Package hyperref Warning: Suppressing link with empty target on input line 236.
 
 
 [5 <./HR_diagram_age_USco-eps-converted-to.pdf> <./HR_diagram_split_USco-eps-co
-nverted-to.pdf> <./USCO5_MR-eps-converted-to.pdf>]
+nverted-to.pdf>]
+
+Package hyperref Warning: Suppressing link with empty target on input line 257.
+
+
+[6 <./USCO5_MR-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <radiative_core_masses.eps>
 (epstopdf)                    date: 2016-02-11 11:19:34
 (epstopdf)                    size: 92765 bytes
@@ -1076,28 +1095,16 @@ Package epstopdf Info: Source file: <radiative_core_masses.eps>
 (epstopdf)                    size: 11914 bytes
 (epstopdf)             Command: <repstopdf --outfile=radiative_core_masses-eps-
 converted-to.pdf radiative_core_masses.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
-<radiative_core_masses-eps-converted-to.pdf, id=374, 474.77374pt x 479.7925pt>
+<radiative_core_masses-eps-converted-to.pdf, id=420, 474.77374pt x 479.7925pt>
 File: radiative_core_masses-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radiative_core_masses-eps-converted-to.pdf>
 Package pdftex.def Info: radiative_core_masses-eps-converted-to.pdf used on inp
-ut line 235.
+ut line 262.
 (pdftex.def)             Requested size: 243.27026pt x 245.84033pt.
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 253.
-LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 253.
-LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 253.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 263.
-
-
-[6 <./radiative_core_masses-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    date: 2016-02-01 09:34:15
 (epstopdf)                    size: 90597 bytes
@@ -1106,33 +1113,33 @@ Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    size: 12512 bytes
 (epstopdf)             Command: <repstopdf --outfile=radius_bump-eps-converted-
 to.pdf radius_bump.eps>
-(epstopdf)             \includegraphics on input line 274.
+(epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
 
-<radius_bump-eps-converted-to.pdf, id=419, 498.86375pt x 479.7925pt>
+<radius_bump-eps-converted-to.pdf, id=443, 498.86375pt x 479.7925pt>
 File: radius_bump-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radius_bump-eps-converted-to.pdf>
-Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 27
-4.
+Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 28
+5.
 (pdftex.def)             Requested size: 217.66513pt x 209.34497pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 288.
+Package hyperref Warning: Suppressing link with empty target on input line 291.
 
 
-[7 <./radius_bump-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+[7 <./radiative_core_masses-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 []\T1/txr/m/n/10 Photometric bright-ness mod-u-la-tion is ob-served in
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 299--300
+Underfull \hbox (badness 5260) in paragraph at lines 304--305
 \T1/txr/m/n/10 lightcurves of US-coC-TIO5 and HD 144548, sug-gest-ing
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 299--300
+Underfull \hbox (badness 1122) in paragraph at lines 304--305
 \T1/txr/m/n/10 mag-netic field of near-equipartition value, ac-com-pa-nied by
  []
 
@@ -1144,42 +1151,48 @@ Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
 (epstopdf)                    size: 11770 bytes
 (epstopdf)             Command: <repstopdf --outfile=Li7_USco_Beq-eps-converted
 -to.pdf Li7_USco_Beq.eps>
-(epstopdf)             \includegraphics on input line 302.
+(epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
-<Li7_USco_Beq-eps-converted-to.pdf, id=487, 500.87125pt x 485.815pt>
+<Li7_USco_Beq-eps-converted-to.pdf, id=504, 500.87125pt x 485.815pt>
 File: Li7_USco_Beq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Li7_USco_Beq-eps-converted-to.pdf>
 Package pdftex.def Info: Li7_USco_Beq-eps-converted-to.pdf used on input line 3
-02.
+07.
 (pdftex.def)             Requested size: 217.66513pt x 211.12025pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 313.
+Package hyperref Warning: Suppressing link with empty target on input line 314.
 
 
-[8 <./Li7_USco_Beq-eps-converted-to.pdf>] (./ms.bbl (./ms.llt))
+[8 <./radius_bump-eps-converted-to.pdf>] (./ms.bbl
 
-Package hyperref Warning: Suppressing link with empty target on input line 331.
+Package hyperref Warning: Suppressing link with empty target on input line 45.
+
+[9 <./Li7_USco_Beq-eps-converted-to.pdf>] (./ms.llt))
+
+Package hyperref Warning: Suppressing link with empty target on input line 336.
 
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+[10
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `ms.out' has not changed.
-(rerunfilecheck)             Checksum: D72648FE4B277BFFF7A7CA34E31AD4D3;596.
+(rerunfilecheck)             Checksum: 11BCB7FB909402A26FA382C009291462;726.
  ) 
 Here is how much of TeX's memory you used:
- 9578 strings out of 493315
- 133308 string characters out of 6137903
- 251367 words of memory out of 5000000
- 12696 multiletter control sequences out of 15000+600000
+ 9587 strings out of 493315
+ 133431 string characters out of 6137903
+ 248387 words of memory out of 5000000
+ 12700 multiletter control sequences out of 15000+600000
  98340 words of font info for 147 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,12n,45p,1972b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,1972b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2
@@ -1195,10 +1208,10 @@ usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (9 pages, 256852 bytes).
+Output written on ms.pdf (10 pages, 261630 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 92 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,7 +19,7 @@
 
 \usepackage{hyperref}
 \hypersetup{
-    bookmarks=true,                                  % show bookmarks bar in pdf reader
+	bookmarks=true,
     pdftitle={A Consistent 10 Myr Age for the Upper Scorpius OB Association},          % set pdf title          
     pdfauthor={Gregory A. Feiden},   % set pdf author
     colorlinks=true,                                 % false = box link, true = colored links
@@ -137,7 +137,7 @@ Peak interior magnetic field strengths are defined at $R_{\rm src} = 0.5\ R_{\st
 The interior magnetic field strength profile requires a surface boundary condition: the average surface magnetic field strength $\langle{\rm B}f\rangle$. In previous studies, a range of values were explored and values that reproduce a given stellar fundamental property were eventually selected. 
 Here, a different approach is used. Instead of adjusting models to find suitable magnetic field strengths, equipartition estimates of the maximum allowed average surface magnetic field strengths are adopted. The aim is to test the predictive abilities of magnetic stellar evolution models. Equipartition between the surface magnetic field pressure and the local gas pressure is assumed, meaning
 \begin{equation}
-    B_{\rm eq,\, surf} = \left(8\pi P_{\rm gas,\, surf}\right)^{1/2}.
+    B_{\rm eq,\, surf} = \left(8\pi P_{{\rm gas},\, \tau = 1}\right)^{1/2}.
 \end{equation}
 Surface gas pressures are defined using the same model atmosphere structures used to specify surface boundary conditions. The ``surface'' is defined as the optical photosphere where $\tau_{5000} = 1$. Values of the surface equipartition magnetic field strengths are listed in Table~\ref{tab:equip_values} for stars at an age of 10 Myr. Since surface gas pressures are dependent on \logg\ and \teff, equipartition magnetic field strengths evolve toward greater values for stars undergoing quasi-hydrostatic contraction. This assumption breaks down for stars with masses above 1.55 $M_{\odot}$, whose outer convection zones disappear within {\bf about} 10 Myr.
 
@@ -179,7 +179,7 @@ A moving median of logarithmic luminosities as a function of $\log$(\teff) was p
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.85\linewidth]{USco_median_HRD.eps}
-    \caption{Hertzsprung-Russell (HR) diagram for Upper Scorpius. A-type through M-type members of Upper Scorpius \citep{Preibisch1999,Preibisch2002,Pecaut2012} are shown as gray points. A median empirical locus for the population is shown as black solid line with the 99\% confidence interval for the median value shown as a light-gray shaded region. Errorbars shown for the majority of stars with \teff\ $< 5\,500$~K are prescribed as described in Sect.~\ref{sec:data}.}
+    \caption{Hertzsprung-Russell (HR) diagram for Upper Scorpius. A-type through M-type members of Upper Scorpius \citep{Preibisch1999,Preibisch2002,Pecaut2012} are shown as gray points. A median empirical locus for the population is shown as black solid line with the 99\% confidence interval for the median value shown as a light-gray shaded region. Errorbars shown for the majority of stars with \teff~$< 5\,500$~K are prescribed as described in Sect.~\ref{sec:data}.}
     \label{fig:empirical}
 \end{figure}
 
@@ -201,6 +201,8 @@ The second system, HD 144548 (also, HIP 78977), was recently revealed to be a tr
 
 \section{Results}
 \label{sec:results}
+
+\subsection{Standard Models}
 An HR diagram for Upper Scorpius is shown in Fig.~\ref{fig:ages}a. Empirical data is represented by the median stellar locus ({\bf light-gray shaded region}) and against three standard stellar evolution isochrones with ages of 5, 10, and 15 Myr ({\bf black dashed lines}). Focusing on {\bf temperature regimes corresponding} A-, F-, and G-type stars {\bf ($5\,750 <$ \teff/K $< 10\,000$)}, standard stellar isochrones predict ages between 5 and 15 Myr, with a median age estimate of approximately 10 Myr. %A median age of roughly 10 Myr is confirmed by comparison of the median stellar locus with stellar model isochrones. 
 
 Careful analysis of Fig.~\ref{fig:ages}b reveals that the empirical sequence closely matches models predictions at about 9 Myr where \teff~$> 8\,000$~K. Late A-type and early F-type stars with $7\,500 < $ \teff/K $ < 8\,000$ agree better with a 9 -- 10 Myr isochrone, as does the early-G-star sequence around \teff\ $\sim 5\,750$~K. In contrast, F-type stars with $6\,000 <$ \teff/K $< 7\,500$ appear marginally older and are best fit by an isochrone between 10 -- 15 Myr. These same features were noted by \citet{Pecaut2012} in their reanalysis of Upper Scorpius. Nevertheless, a 10 Myr isochrone lies almost entirely within the 99\% confidence interval for the median value across the entire range, suggesting an overall age of 10 Myr is reasonable. One can also see that HD 144548 A lies close to the 10 Myr isochrone suggesting that, at the very least, HD 144548 is approximately 10 Myr old.
@@ -213,40 +215,31 @@ A mass-radius diagram with the two eclipsing systems is shown in Fig.~\ref{fig:m
 
 Both eclipsing systems exhibit a disagreement between their HR and mass-radius diagram age. However, the disagreements do not immediately appear to be systematic. HD 144548 appears younger in the mass-radius plane than it does in the HR diagram by roughly a factor of two. In contrast, UScoCTIO5 appears older in the mass-radius plane than it does in the HR diagram---also by {\bf about} a factor of two. Slopes of the theoretical \teff-luminosity and mass-radius relationships must be altered in different directions to produce an overall agreement.
 
+\subsection{Magnetic Models}
 Introducing a magnetic perturbation as described in Sect.~\ref{sec:models}, a 10 Myr isochrone is computed and overlaid in the HR and mass-radius diagrams in Figs.~\ref{fig:ages} and \ref{fig:mrd} (thick yellow solid line). An age of 10 Myr was chosen as a starting point based on the approximate median age of the A-, F-, and G-type stars determined from standard stellar evolution models. 
 
-\begin{figure}[!b]
+A 10 Myr magnetic isochrone naturally explains the factor of two age difference observed between high- and low-mass stars, provided the high-mass stars are not appreciably affected by additional non-standard physics (e.g., rotation). 
+Figures~\ref{fig:ages}a and \ref{fig:ages}c (HR diagrams) {\bf show that a 10 Myr isochrone computed with equipartition magnetic fields} is shifted toward cooler temperatures and higher luminosities compared to a 10 Myr non-magnetic isochrone. Inhibition of convection by magnetic fields {\bf cools the stellar surface temperature thereby slowing} the contraction rate of young stars. Stars have a larger radius and a higher luminosity at a given age, as a result. The combination of cooler surface temperatures and higher luminosities {\bf makes} a 10 Myr magnetic isochrone look nearly identical to a 5 Myr non-magnetic isochrone for {\bf stars with} effective temperatures {\bf below about 5\,000~K. The magnetic stellar model isochrone lies on top of the 5 Myr standard model isochrone in Figs.~\ref{fig:ages}a and \ref{fig:ages}c and entirely within} the empirical stellar locus for low-mass stars in Upper Scorpius. 
+
+{\bf The magnetic model isochrone also correctly converges toward the 10 Myr standard model isochrone at warmer effective temperatures. To some degree, this  convergence reproduces an observed transition in the empirical HR diagram where the age inferred from standard model isochrones shifts from 5 Myr to 10 Myr. Below \teff~$\sim 5\,000$~K, the magnetic isochrone closely matches predictions from a 5 Myr standard model isochrone. Compare this to the small segment of the magnetic isochrone above \teff\ $\sim 6\,000$~K. Here, the magnetic isochrone traces the 10 Myr standard model isochrone. Although the model predicted transition appears to occur over approximately the correct effective temperature domain, Fig.~\ref{fig:ages}a shows a sharper transition from a magnetic to a non-magnetic sequence between $4\,500 <$ \teff/K $< 6\,000$ compared to model predictions. This is more clearly seen in Fig.~\ref{fig:empirical}, where the empirical median stellar locus exhibits a knee around \teff $\sim 4\,500$~K that roughly corresponds to the beginning of the transition region in Fig.~\ref{fig:ages}a. A distinct knee feature is absent from the magnetic model isochrone.}
+
+%In magnetic model space, this temperature domain corresponds to masses between $1.40$ and $1.56$ \msun. Inspection of Fig.~\ref{fig:mrd} reveals this mass range corresponds precisely to where the rapid thinning of the convection zone occurs, as expected.}
+
+\begin{figure}[t]
     \centering
     \includegraphics[width=0.90\linewidth]{USCO5_MR.eps}
     \caption{Mass-radius diagram for stars in eclipsing systems. {\bf Black points are from \citet{Kraus2015} and \citet{Alonso2015}, while gray points are taken from \citet{Lodieu2015} and \citet{David2015b}.} Model predictions for magnetic and non-magnetic isochrones are the same as in Fig.~\ref{fig:ages}.}
     \label{fig:mrd}
 \end{figure}
 
-Figures~\ref{fig:ages}a and \ref{fig:ages}c (HR diagrams) {\bf show that a 10 Myr isochrone computed with equipartition magnetic fields} is shifted toward cooler temperatures and higher luminosities compared to a 10 Myr non-magnetic isochrone. Inhibition of convection by magnetic fields {\bf cools the stellar surface temperature thereby slowing} the contraction rate of young stars, leading to stars having a larger radius and a larger luminosity at a given age. The combination of cooler surface temperatures and higher luminosities {\bf makes} a 10 Myr magnetic isochrone look nearly identical to a 5 Myr non-magnetic isochrone for effective temperatures {\bf below about 5\,000~K. The magnetic stellar model isochrone lies on top of the 5 Myr standard model isochrone in Figs.~\ref{fig:ages}a and \ref{fig:ages}c. It also lies entirely within} the empirical stellar locus for low-mass stars in Upper Scorpius. 
-
-{\bf The magnetic model isochrone converges with the 10 Myr standard model isochrone at warmer effective temperatures reproducing, to some degree, an observed transition in the HR diagram from a 5 Myr to a 10 Myr standard model isochrone. For \teff\ $< 4\,500$~K, the magnetic isochrone closely matches predictions from a 5 Myr standard model isochrone. Compare this to the small segment of the magnetic isochrone above \teff\ $\sim 6\,000$~K, where the magnetic isochrone closely follows the 10 Myr standard model isochrone. Although the model predicted transition appears to occur over approximately the correct effective temperature domain, Fig.~\ref{fig:ages}a shows a sharper transition from a magnetic to a non-magnetic sequence between $4\,500 <$ \teff/K $< 6\,000$ compared to model predictions. This can be more clearly seen in Fig.~\ref{fig:empirical}, where the empirical median stellar locus exhibits a knee around \teff $\sim 4\,500$~K that roughly corresponds to the beginning of the transition region in Fig.~\ref{fig:ages}a. However, a distinct knee feature is absent from the magnetic model isochrone.
-
-In magnetic model space, this temperature domain corresponds to masses between $1.40$ and $1.56$ \msun. Inspection of Fig.~\ref{fig:mrd} reveals this mass range corresponds precisely to where the rapid thinning of the convection zone occurs, as expected.}
-
-Thus, a 10 Myr magnetic isochrone naturally explains the factor of two age difference observed between high- and low-mass stars, provided the high mass stars are not appreciably affected by non-standard physics (e.g., magnetic fields or rotation).
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.95\linewidth]{radiative_core_masses.eps}
-    \caption{Mass fraction of the stellar radiative core as a function of (a) total stellar mass and (b) effective temperature. }
-    \label{fig:rad_core}
-\end{figure}
-
-
-
-Furthermore, the mass-radius diagram in Figure~\ref{fig:mrd} shows a 10 Myr magnetic isochrone provides reasonable agreement with the two low-mass eclipsing binary systems. It is apparent that magnetic inhibition of convection leads to more significant radius ``inflation'' at higher masses as compared to lower masses. This effect leads to a change in slope of the model predicted mass-radius relationship that is consistent with observations. Although agreement is good, it is not perfect. {\bf Depending on whether mass and radius estimates are adopted from \citet{Kraus2015} or \citet{David2015b}, at 10 Myr the radii of the primary and secondary of UScoCTIO5 are either 3.2\% and 2.1\% \citeauthor{Kraus2015} larger than model predictions or 5.7\% and 6.6\% larger \citeauthor{David2015b}.} Similarly, models at 10 Myr predict radii that are 1.4\% too large and 1.5\% too small for the Ba and Bb components of HD 144548 at 10 Myr, respectively. An age between 9.0 and 9.5 Myr is preferred for UScoCTIO5, while 10 Myr is the best fit age for HD 144548 Ba/Bb. 
+Moreover, inspection of the mass-radius diagram in Figure~\ref{fig:mrd} shows a 10 Myr magnetic isochrone provides reasonable agreement with the two low-mass eclipsing binary systems. It is apparent that magnetic inhibition of convection leads to more significant radius ``inflation'' at higher masses compared to at lower masses. This effect leads to a change in slope of the model predicted mass-radius relationship that is consistent with observations. Although agreement is good, it is not perfect. {\bf Depending on whether mass and radius estimates are adopted from \citet{Kraus2015} or \citet{David2015b}, at 10 Myr the radii of the primary and secondary in UScoCTIO5 are either 3.2\% and 2.1\% (\citeauthor{Kraus2015}) larger than model predictions or 5.7\% and 6.6\% larger (\citeauthor{David2015b}).} Similarly, models at 10 Myr predict radii that are 1.4\% too large and 1.5\% too small for the Ba and Bb components of HD 144548 at 10 Myr, respectively. An age between 9.0 and 9.5 Myr is preferred for UScoCTIO5, while 10 Myr is the best fit age for HD 144548 Ba/Bb. 
 
 This age spread could be indicative of an intrinsic age spread, but it is also possible {\bf to attribute this spread to errors in the mass and radius determinations of the eclipsing binary systems or to the fact} that the low-mass stars in UScoCTIO5 may require marginally stronger magnetic field strengths than are predicted from equipartition arguments. Nevertheless, it is encouraging that models provide this level of agreement with an age and surface magnetic field strengths determined \emph{a priori}. 
 
 
 \section{Discussion}
 \label{sec:disc}
-An age of {\bf 9 -- 10} Myr gives broad agreement across the HR and mass-radius diagrams. No stellar population in Upper Scorpius {\bf studied here robustly} supports the possibility that the median age of the association is 5 Myr old. As noted above, the median age for F-type stars appears to be a few million years older than stars of other spectral types. This {\bf discrepancy} is {\bf perplexing} and should be explored further, especially considering that potential missing physics in the models would likely conspire to make F-stars older, not younger. Curiously, most F stars in Upper Scorpius are at a stage of evolution where radii increase and subsequently decrease over a period of roughly 4 Myr {\bf (e.g., HD 144548 A). The timescale for this process is} similar to the observed age discrepancy (see Fig.\ \ref{fig:bump} and text below for more details) and may be indicative of potential shortcomings in model physics. 
+An age of {\bf 9 -- 10} Myr gives broad agreement across the HR and mass-radius diagrams. No stellar population in Upper Scorpius {\bf studied here robustly} supports the possibility that the median age of the association is 5 Myr. There are, however, still age discrepancies that must be addressed. As noted above, the median age for F-type stars appears to be a few million years older than stars of other spectral types. This {\bf discrepancy} is {\bf perplexing and deserves further investigation}, especially considering that potential missing physics in the models would likely conspire to make F-stars older, not younger. It should be noted that most F-type stars in Upper Scorpius are at a stage of evolution where models predict radii increase and subsequently decrease over a period of roughly 4 -- 8 Myr. {\bf The timescale for this process is} similar to the observed age discrepancy (see Fig.~\ref{fig:bump} in Sect.~\ref{sec:radius}) and may be indicative of potential shortcomings in existing model physics such as radiative opacities or nuclear reaction cross-sections. 
 
 {\bf Age discrepancies also exist with two B-type members of Upper Scorpius: \object{$\tau$ Sco} and \object{$\omega$ Sco}. They exhibit ages between 2 and 5 Myr depending on whether rotation is accounted for in stellar evolution models \citep{Pecaut2012}. Those authors show that there are four other B-type stars that have inferred ages consistent with the 10 Myr median age proposed here, if rotation is taken into account. Notably the four stars that appear older are known binary systems while the two seemingly younger stars do not have a detected companion \citep{Pecaut2012}. The presence of two seemingly young B-type stars may be leveraged to suggest there exists a young population of stars with ages around 5 Myr thus supporting the younger age for the low-mass stellar population and thereby doing away with the need for a magnetic field explanation. However, that scenario requires that the low-mass stars form almost exclusively in a later star formation episode than the higher mass population. Although we cannot definitively rule out this scenario, we find it unlikely and maintain that the {\bf median} age for the low-mass stars is too young compared to the rest of the stellar population in the absence of magnetic inhibition of convection.}
 
@@ -254,10 +247,22 @@ An age of {\bf 9 -- 10} Myr gives broad agreement across the HR and mass-radius 
 \label{sec:dynamo}
 % F --> G type members are bright (V < 10 mag) and could be accessible to ZDI. Perhaps we'd see changes in magnetic strengths or topologies stretching from late-G to late-F.
 
-Given that magnetic inhibition of convection is required to explain the anomalously young age of low-mass K- and M-type stars, it is worth considering at what mass or effective temperature the effects related to magnetism can be identified.
-%begins to play a significant role in governing stellar structure. 
-Looking at Fig.\ \ref{fig:ages}a, early- to mid-G stars follow a 10 Myr standard stellar model isochrone. Instead of continuing the trend, late-G stars appear to deviate toward a 5 Myr isochrone around \teff\ $\sim 5\,750$ K. %, evidenced by a flattening of the empirical locus. 
-This may be an artifact of how the empirical locus was computed. However, it may indicate {\bf a transition} where the influence of magnetic inhibition of convection becomes identifiable.
+Given that magnetic inhibition of convection is required to explain the anomalously young age of low-mass K- and M-type stars, it is worth considering at which mass or effective temperature the effects related to magnetism cease to play an important role in governing stellar structure. 
+Looking at Fig.\ \ref{fig:ages}a, early- to mid-G stars follow a 10 Myr standard stellar model isochrone. Instead of continuing the trend, late-G stars appear to slope toward a 5 Myr isochrone around \teff\ $\sim 5\,750$ K. The empirical sequence exhibits a shallower slope than the model isochrone at 10 Myr.
+ %, evidenced by a flattening of the empirical locus. 
+
+The shallower slope may be an artifact of how the empirical locus was computed, {\bf but this seems unlikely to be a dominant factor as the HR diagram is well-populated at this effective temperature. It is somewhat under-populated in the immediate vicinity of \teff~$= 5\,500$~K, but is once again well-populated near 4\,500~K. The general trend should therefore be robust against errors in how the empirical locus is computed.}
+
+{\bf Observational errors may also provide a plausible explanation for the shallower slope of the HR diagram in the vicinity of 5\,000~K. Below this temperature, stellar atmospheric opacity becomes dominated by molecular species, particularly TiO in the optical and H$_2$O in the infrared. It can be argued that the effective temperature scale used to determine the properties of K- and M-dwarfs is too cool by about 200 K. \citet{Preibisch1999} constructed an spectral type to effective temperature transformation at a gravity intermediate between dwarf and giant scales using the transformation derived for luminosity class IV objects by \citet{deJager1987}. Comparing their results to the 5 -- 30 Myr pre-main-sequence star temperature scale proposed by \citet{Pecaut2013}, one finds that the temperature scale adopted by \citeauthor{Preibisch1999} is about 100~K cooler for early K-type stars. However, this trend reverses around spectral type M0, with \citeauthor{Preibisch1999} finding temperatures about 100~K warmer than \citet{Pecaut2013} for early-to-late M-type stars. Considering these differences, the sharp knee feature in the HR diagram may be accentuated by the adoption of an erroneous temperature scale, but the general trend that late-K to M-type stars are significantly cooler than theoretical predictions at 10 Myr remains. Furthermore, \citet{Herczeg2015} independently find a temperature scale consistent with \citeauthor{Preibisch1999}'s using PHOENIX BT-Settl models \citep{Allard2011} to infer effective temperatures from infrared photometric colors. The evidence suggests the adopted temperature scale is not the dominant reason for the observed transition in the HR diagram.} 
+
+Instead of being the result of observational errors, the shallower slope in the HR diagram may indicate {\bf a transition} where the influence of magnetic inhibition of convection becomes {\bf a critical component governing a star's structure}.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.95\linewidth]{radiative_core_masses.eps}
+    \caption{Mass fraction of the stellar radiative core as a function of (a) total stellar mass and (b) effective temperature. }
+    \label{fig:rad_core}
+\end{figure}
 
 {\bf Predictions from stellar evolution models suggest a transition should exist. Convective envelopes in stars with masses greater than $\sim1.2$ $M_{\odot}$ gradually recede from the deep interior toward the stellar surface in response to the ignition of the proton-proton ($p$-$p$) chain and continued release of gravitational potential energy as the star contracts. Eventually, the convective envelope in these stars will disappear entirely following ignition of the CN-cycle. As the convective envelope grows thinner, magnetic fields of a given strength will have a larger impact on the thermal structure of the super-adiabatic region. However, a restructuring of the super-adiabatic layers in a star with a thin convective envelope has less of an impact on the thermal structure of the deeper layers, which are assumed to be in radiative equilibrium, than for a star whose interior is largely convective. The thinning of the convective envelope is also accompanied by a drop in surface gas pressure as the star's radius inflates, lowering the permitted equipartition magnetic field strength. The combination of these two effects suggests that the transition from a magnetic sequence to a non-magnetic sequence should coincide with the disappearance of the convective envelope.} % confirm discussion of super-adiabatic layers
 
@@ -269,18 +274,18 @@ If the age difference between warmer and cooler stars in Upper Scorpius is the r
 
 Presence of magnetic and non-magnetic sequences has implications for the (sub)stellar initial mass function of Upper Scorpius \citep{Ardila2000, Preibisch2002}. Not only will magnetic inhibition of convection shift mass estimates for cool stars toward higher masses, but a gradually declining magnetic field in the regime of 1.4 \msun\ should result in a paucity of stars in the 4500~K -- 5500~K temperature range. Standard stellar initial mass functions \citep[e.g.,][]{Salpeter1955, Kroupa2002} predict a certain number of stars at a given mass relative to other masses. Having a range of magnetic field strengths in stars over such a narrow mass range (0.16 \msun) will spread stars of similar mass across a wider range in temperature. It's not clear from \citet{Preibisch2002} whether this paucity is observed. However, they do note a possible excess of low-mass stars compared to field initial mass functions \citep{Scalo1998, Kroupa2002} that appears consistent with predictions from magnetic models. The impact of magnetic inhibition of convection on the (sub)stellar initial mass function of Upper Scorpius is reserved for future work.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.85\linewidth]{radius_bump.eps}
-    \caption{Brief period of radius inflation described in Sect.~\ref{sec:radius} for stars with masses of 1.60\msun\ (blue solid), 1.55\msun\ (green short-dashed), 1.50\msun\ (blue dash-dotted), 1.45\msun\ (yellow long-dashed). Mass tracks are computed without a magnetic field (i.e., non-magnetic configuration). Effective temperatures at these masses are characteristic of F stars at 10 Myr.}
-    \label{fig:bump}
-\end{figure}
-
 \subsection{Radius of HD 144548 A}
 \label{sec:radius}
 Figure~\ref{fig:mrd} reveals that the radius of HD 144548 A is significantly larger than is expected from standard stellar evolutionary predictions. This poses a problem to claims of consistent ages across stellar populations in Upper Scorpius. However, it is not immediately clear that the observed radius error is a true astrophysical problem. For instance, adopting the effective temperature and luminosity estimate from \citet{Pecaut2012}, one derives a radius of $R = 2.2 \pm 0.2 R_{\odot}$. This is formally consistent with the radius derived by \citep{Alonso2015}, but the mean value is more consistent with estimates from stellar evolution isochrones around 10 Myr. Stellar models show an increase in stellar radius for stars with masses in the vicinity of $M = 1.5$\msun, illustrated {\bf as a function of stellar mass and age} in Fig.\ \ref{fig:bump}. As described in {\bf Sect.\ \ref{sec:dynamo}}, this radius increase is due to the convective envelope responding to increased energy generation from the $p$--$p$ chain and gravitational contraction of the core.
 
 Assessing in detail whether the larger radius of HD 144548 A is real is beyond the scope of this work. However, if it requires revision, the result is unlikely to affect the inferred masses and radii derived for the close binary. Those largely depend on photodynamical modeling of the \emph{Kepler}/K2 lightcurve during events where Ba and Bb eclipse one another, not where the pair eclipse the tertiary component. Results in Sect.~\ref{sec:results} should be robust. Still, confirmation of the star's radius would be beneficial for future investigations to ensure there are no adverse effects on the radii of the B components. 
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.85\linewidth]{radius_bump.eps}
+    \caption{Brief period of radius inflation described in Sect.~\ref{sec:radius} for stars with masses of 1.60\msun\ (blue solid), 1.55\msun\ (green short-dashed), 1.50\msun\ (blue dash-dotted), 1.45\msun\ (yellow long-dashed). Mass tracks are computed without a magnetic field (i.e., non-magnetic configuration). Effective temperatures at these masses are characteristic of F stars at 10 Myr.}
+    \label{fig:bump}
+\end{figure}
 
 {\bf HD 144548 appears to be in a fairly rapid phase of evolution given either the radius estimate from \cite{Pecaut2012} or \citet{Alonso2015}. This phase of evolution is sensitive to radiative opacities and nuclear reaction cross sections. Radiative opacities and the initial $p$-$p$ reaction cross section determine when radius inflation begins while CN-cycle reactions largely control when radius inflation ends.} It may be possible to use HD 144548 A to constrain these physics, notably nuclear reaction cross-sections for CN-cycle reactions, if the properties of HD 144548 A can be accurately constrained. CN-cycle reactions eventually generate enough energy to oppose core contraction and reverse the radius increase {\bf shown in Figs.\ \ref{fig:mrd} and \ref{fig:bump} \citep[also see][]{Stassun2014}}. Therefore, the maximum radius reached by a star during this phase of evolution is sensitive to the adopted CN-cycle cross sections. 
 
@@ -326,6 +331,6 @@ Further work is needed to explore the impact of magnetic inhibition of convectio
 Thank you to Alexis Lavail, Eric Mamajek, James Silvester, and Eric Stempels for reading and commenting on an early version of this manuscript. The magnetic Dartmouth stellar evolution code was originally developed with support of National Science Foundation (NSF) grant AST-0908345. This work made use of NASA's Astrophysics Data System (ADS) and the VizieR catalogue access tool by CDS in Strasbourg, France. Figures in this manuscript were produced with Gnuplot 5 \citep{Gnuplot5.0}.
 \end{acknowledgements}
 
-\bibliography{papers}
+\bibliography{papers.bib}
 
 \end{document}
