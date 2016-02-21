@@ -14,9 +14,10 @@ masses = []
 for age in ages:
     print "Processing Age: {:07.1f} Myr".format(age/1.0e6)
     for f in files:
+        print "....File {:s}".format(f)
         try:
             # import age, log(Teff), log(g), log(L/Lo), log(R/Ro), N(Li), Mconv,env
-            trk = np.genfromtxt(f, skiprows=100, usecols=(2, 6, 5, 3, 4, 56, 8))
+            trk = np.genfromtxt(f, skiprows=10, usecols=(2, 6, 5, 3, 4, 56, 8))
         except (IOError, StopIteration):
             print "FAIL: {0}".format(f)
             continue        
@@ -36,7 +37,10 @@ for age in ages:
         except:
             continue
     
-        props = icurve(age)
+        try:
+            props = icurve(age)
+        except:
+            continue
         props = np.append(mass, props)
     
         try:
