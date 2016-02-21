@@ -1,6 +1,6 @@
 set encoding iso_8859_1
-set term postscript enhanced color rounded font "Times-Roman, 20" fontfile "/usr/local/share/ghostscript/9.07/Resource/Font/cmsy10.pfb"
-set out "Li7_USco_Beq.ps"
+set term postscript enhanced color rounded font "Times-Roman, 20" fontfile "/usr/local/share/ghostscript/9.10/Resource/Font/cmsy10.pfb"
+set out "../fig/Li7_USco_Beq.ps"
 
 set style line 1 lt 6 lw 3 dt '-' lc rgb "gray20"
 set style line 2 lt 4 lw 4 #lc rgb "gray20"
@@ -33,14 +33,14 @@ set key on at 4700, 1.6 tc rgb "gray20" font ",16"
 set key spacing 1.5
 
 plot f(x) dt '.' lw 2 lc rgb "gray20" notitle, \
-     "../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso"  u (10**$2):6 w l ls 1 title "10 Myr: non-magnetic", \
-     "../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso"  u (10**$2):6 w l ls 4 title " 5 Myr: non-magnetic", \
-     "/Users/grefe950/evolve/data/beq/models/GS98/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):6 w l ls 2 title "10 Myr: {/Symbol \341B\646\361 \75} B_{eq}"
+     "../models/iso/std/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso"  u (10**$2):6 w l ls 1 title "10 Myr: non-magnetic", \
+     "../models/iso/std/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso"  u (10**$2):6 w l ls 4 title " 5 Myr: non-magnetic", \
+     "../models/iso/mag/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u (10**$2):6 w l ls 2 title "10 Myr: {/Symbol \341B\646\361 \75} B_{eq}"
 
 
 ####
 
-set out "Li_logL.ps"
+set out "../fig/Li_logL.ps"
 
 set xlabel "log_{10}(L / L_{/CMSY10 \014})"
 set xrange [1.0:-2.0]
@@ -64,6 +64,6 @@ set key on at 5350, 1.5 tc rgb "gray20" font ",16"
 set key spacing 1.5
 
 plot f(x) dt '-.' lw 2 lc rgb "gray20" notitle, \
-     "../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso" u 4:6 w l ls 1 dt '-' title "Non-magnetic", \
-     "../../../evolve/dmestar/iso/gs98/p000/a0/amlt1884/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso" u 4:6 w l ls 1 title "Non-magnetic", \
-     "/Users/grefe950/evolve/data/beq/models/GS98/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u 4:6 w l ls 2 title "{/Symbol \341B\646\361 \75} B_{eq}" 
+     "../models/iso/std/dmestar_00005.0myr_z+0.00_a+0.00_phx.iso" u 4:6 w l ls 1 dt '-' title "Non-magnetic", \
+     "../models/iso/std/dmestar_00010.0myr_z+0.00_a+0.00_phx.iso" u 4:6 w l ls 1 title "Non-magnetic", \
+     "../models/iso/mag/dmestar_00010.0myr_z+0.00_a+0.00_phx_magBeq.iso" u 4:6 w l ls 2 title "{/Symbol \341B\646\361 \75} B_{eq}" 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.18)  20 FEB 2016 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.18)  21 FEB 2016 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,11 +1002,11 @@ Package hyperref Warning: Suppressing link with empty target on input line 187.
 
 [3]
 Package epstopdf Info: Source file: <HR_diagram_age_USco.eps>
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 96490 bytes
+(epstopdf)                    date: 2016-02-21 23:32:20
+(epstopdf)                    size: 96744 bytes
 (epstopdf)             Output file: <HR_diagram_age_USco-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 15685 bytes
+(epstopdf)                    date: 2016-02-21 23:33:04
+(epstopdf)                    size: 15800 bytes
 (epstopdf)             Command: <repstopdf --outfile=HR_diagram_age_USco-eps-co
 nverted-to.pdf HR_diagram_age_USco.eps>
 (epstopdf)             \includegraphics on input line 196.
@@ -1019,12 +1019,12 @@ Package pdftex.def Info: HR_diagram_age_USco-eps-converted-to.pdf used on input
  line 196.
 (pdftex.def)             Requested size: 251.2925pt x 233.20343pt.
 Package epstopdf Info: Source file: <HR_diagram_split_USco.eps>
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 98414 bytes
+(epstopdf)                    date: 2016-02-21 23:32:25
+(epstopdf)                    size: 98501 bytes
 (epstopdf)             Output file: <HR_diagram_split_USco-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 12026 bytes
+(epstopdf)                    date: 2016-02-21 23:33:06
+(epstopdf)                    size: 12047 bytes
 (epstopdf)             Command: <repstopdf --outfile=HR_diagram_split_USco-eps-
 converted-to.pdf HR_diagram_split_USco.eps>
 (epstopdf)             \includegraphics on input line 197.
@@ -1059,11 +1059,11 @@ Underfull \hbox (badness 2012) in paragraph at lines 224--225
  []
 
 Package epstopdf Info: Source file: <USCO5_MR.eps>
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 89209 bytes
+(epstopdf)                    date: 2016-02-21 23:32:35
+(epstopdf)                    size: 89278 bytes
 (epstopdf)             Output file: <USCO5_MR-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 13361 bytes
+(epstopdf)                    date: 2016-02-21 23:33:08
+(epstopdf)                    size: 13386 bytes
 (epstopdf)             Command: <repstopdf --outfile=USCO5_MR-eps-converted-to.
 pdf USCO5_MR.eps>
 (epstopdf)             \includegraphics on input line 230.
@@ -1087,12 +1087,12 @@ Package hyperref Warning: Suppressing link with empty target on input line 257.
 
 [6 <./USCO5_MR-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <radiative_core_masses.eps>
-(epstopdf)                    date: 2016-02-11 21:19:39
-(epstopdf)                    size: 92765 bytes
+(epstopdf)                    date: 2016-02-21 23:36:24
+(epstopdf)                    size: 92895 bytes
 (epstopdf)             Output file: <radiative_core_masses-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2016-02-11 21:19:39
-(epstopdf)                    size: 11914 bytes
+(epstopdf)                    date: 2016-02-21 23:36:52
+(epstopdf)                    size: 11949 bytes
 (epstopdf)             Command: <repstopdf --outfile=radiative_core_masses-eps-
 converted-to.pdf radiative_core_masses.eps>
 (epstopdf)             \includegraphics on input line 262.
@@ -1144,11 +1144,11 @@ Underfull \hbox (badness 1122) in paragraph at lines 304--305
  []
 
 Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
-(epstopdf)                    date: 2016-01-31 22:19:13
-(epstopdf)                    size: 88583 bytes
+(epstopdf)                    date: 2016-02-21 23:41:16
+(epstopdf)                    size: 89063 bytes
 (epstopdf)             Output file: <Li7_USco_Beq-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-02-09 23:54:28
-(epstopdf)                    size: 11770 bytes
+(epstopdf)                    date: 2016-02-21 23:41:31
+(epstopdf)                    size: 11932 bytes
 (epstopdf)             Command: <repstopdf --outfile=Li7_USco_Beq-eps-converted
 -to.pdf Li7_USco_Beq.eps>
 (epstopdf)             \includegraphics on input line 307.
@@ -1211,7 +1211,7 @@ usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (10 pages, 261530 bytes).
+Output written on ms.pdf (10 pages, 261840 bytes).
 PDF statistics:
  688 PDF objects out of 1000 (max. 8388607)
  631 compressed objects within 7 object streams

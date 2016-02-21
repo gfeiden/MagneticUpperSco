@@ -1,5 +1,5 @@
 set encoding iso_8859_1
-set term postscript enhanced color rounded font "Times-Roman, 20" dashlength 1.1 fontfile "/usr/local/share/ghostscript/9.07/Resource/Font/cmsy10.pfb"
+set term postscript enhanced color rounded font "Times-Roman, 20" dashlength 1.1 fontfile "/usr/local/share/ghostscript/9.10/Resource/Font/cmsy10.pfb"
 
 set style line 1 lt 6 lw 2 #lc rgb "gray20"
 set style line 2 lt 4 lw 4 #lc rgb "#1e90ff"
@@ -7,7 +7,6 @@ set style line 3 lt 1 lw 2 ps 1.2 lc rgb "gray50"
 set style line 4 lt 6 dt '-' lw 3 lc rgb "gray20"
 set style line 5 lt 6 lw 3 dt '_' lc rgb "gray20"
 set style line 6 lt 6 dt '.-.' lw 3 lc rgb "gray20"
-set style line 7 lt 
 
 set size square
 set tics front
