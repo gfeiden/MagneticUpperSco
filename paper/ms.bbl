@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{64}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allard} {et~al.}(2011){Allard}, {Homeier}, \&
@@ -22,6 +22,11 @@
 \bibitem[{{Bahcall} {et~al.}(2005){Bahcall}, {Serenelli}, \&
   {Basu}}]{Bahcall2005}
 {Bahcall}, J.~N., {Serenelli}, A.~M., \& {Basu}, S. 2005, \apj, 621, L85
+
+\bibitem[{{Baraffe} {et~al.}(2003){Baraffe}, {Chabrier}, {Barman}, {Allard}, \&
+  {Hauschildt}}]{Baraffe2003}
+{Baraffe}, I., {Chabrier}, G., {Barman}, T.~S., {Allard}, F., \& {Hauschildt},
+  P.~H. 2003, \aap, 402, 701
 
 \bibitem[{{Basu}(1998)}]{Basu1998}
 {Basu}, S. 1998, \mnras, 298, 719

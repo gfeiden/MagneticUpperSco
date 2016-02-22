@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  22 FEB 2016 11:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  22 FEB 2016 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1105,6 +1105,33 @@ File: radiative_core_masses-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: radiative_core_masses-eps-converted-to.pdf used on inp
 ut line 262.
 (pdftex.def)             Requested size: 243.27026pt x 245.84033pt.
+Package epstopdf Info: Source file: <radiative_core_mass_difference.eps>
+(epstopdf)                    date: 2016-02-22 12:00:27
+(epstopdf)                    size: 86791 bytes
+(epstopdf)             Output file: <radiative_core_mass_difference-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-02-22 12:00:42
+(epstopdf)                    size: 10280 bytes
+(epstopdf)             Command: <repstopdf --outfile=radiative_core_mass_differ
+ence-eps-converted-to.pdf radiative_core_mass_difference.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<radiative_core_mass_difference-eps-converted-to.pdf, id=436, 528.97626pt x 485
+.815pt>
+File: radiative_core_mass_difference-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use radiative_core_mass_difference-eps-converted-to.pdf>
+Package pdftex.def Info: radiative_core_mass_difference-eps-converted-to.pdf us
+ed on input line 279.
+(pdftex.def)             Requested size: 243.27026pt x 223.4183pt.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 287.
+
+
+[7 <./radiative_core_masses-eps-converted-to.pdf> <./radiative_core_mass_differ
+ence-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    date: 2016-02-01 09:34:15
 (epstopdf)                    size: 90597 bytes
@@ -1113,36 +1140,36 @@ Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    size: 12512 bytes
 (epstopdf)             Command: <repstopdf --outfile=radius_bump-eps-converted-
 to.pdf radius_bump.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<radius_bump-eps-converted-to.pdf, id=444, 498.86375pt x 479.7925pt>
+<radius_bump-eps-converted-to.pdf, id=475, 498.86375pt x 479.7925pt>
 File: radius_bump-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radius_bump-eps-converted-to.pdf>
-Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 28
-5.
+Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 29
+2.
 (pdftex.def)             Requested size: 217.66513pt x 209.34497pt.
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 291.
-
-
-[7 <./radiative_core_masses-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 []\T1/txr/m/n/10 Photometric bright-ness mod-u-la-tion is ob-served in
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 304--305
+Underfull \hbox (badness 5260) in paragraph at lines 311--312
 \T1/txr/m/n/10 lightcurves of US-coC-TIO5 and HD 144548, sug-gest-ing
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 304--305
+Underfull \hbox (badness 1122) in paragraph at lines 311--312
 \T1/txr/m/n/10 mag-netic field of near-equipartition value, ac-com-pa-nied by
  []
 
+
+Package hyperref Warning: Suppressing link with empty target on input line 312.
+
+
+[8 <./radius_bump-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
 (epstopdf)                    date: 2016-02-22 09:44:51
 (epstopdf)                    size: 89063 bytes
@@ -1151,50 +1178,43 @@ Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
 (epstopdf)                    size: 11932 bytes
 (epstopdf)             Command: <repstopdf --outfile=Li7_USco_Beq-eps-converted
 -to.pdf Li7_USco_Beq.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
-<Li7_USco_Beq-eps-converted-to.pdf, id=504, 500.87125pt x 485.815pt>
+
+<Li7_USco_Beq-eps-converted-to.pdf, id=538, 500.87125pt x 485.815pt>
 File: Li7_USco_Beq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Li7_USco_Beq-eps-converted-to.pdf>
 Package pdftex.def Info: Li7_USco_Beq-eps-converted-to.pdf used on input line 3
-07.
+14.
 (pdftex.def)             Requested size: 217.66513pt x 211.12025pt.
 
-Underfull \vbox (badness 3291) has occurred while \output is active []
 
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 315.
-
-
-[8 <./radius_bump-eps-converted-to.pdf>]
-
-Package hyperref Warning: Suppressing link with empty target on input line 339.
+Package hyperref Warning: Suppressing link with empty target on input line 343.
 
 
 [9 <./Li7_USco_Beq-eps-converted-to.pdf>] (./ms.bbl (./ms.llt))
 
-Package hyperref Warning: Suppressing link with empty target on input line 345.
+Package hyperref Warning: Suppressing link with empty target on input line 352.
 
 
 [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
 Package rerunfilecheck Info: File `ms.out' has not changed.
 (rerunfilecheck)             Checksum: 11BCB7FB909402A26FA382C009291462;726.
  ) 
 Here is how much of TeX's memory you used:
- 9598 strings out of 493315
- 133569 string characters out of 6137903
- 247538 words of memory out of 5000000
- 12703 multiletter control sequences out of 15000+600000
- 98340 words of font info for 147 fonts, out of 8000000 for 9000
+ 9611 strings out of 493315
+ 133912 string characters out of 6137903
+ 251995 words of memory out of 5000000
+ 12710 multiletter control sequences out of 15000+600000
+ 101355 words of font info for 150 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,12n,45p,1839b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,1839b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2
@@ -1207,13 +1227,14 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2013/texmf-dist/fonts
 s/txsya.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (10 pages, 264998 bytes).
+texlive/2013/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on ms.pdf (10 pages, 277482 bytes).
 PDF statistics:
- 707 PDF objects out of 1000 (max. 8388607)
- 650 compressed objects within 7 object streams
- 105 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 PDF objects out of 1000 (max. 8388607)
+ 664 compressed objects within 7 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
