@@ -1,4 +1,4 @@
-# A Consistent 10 Myr Age for Upper Sco
+# A Consistent 10 Myr Age for Upper Scorpius
 
 Files and notebooks related to Feiden (2016, A&amp;A, re-submitted)
 
@@ -31,6 +31,6 @@ Submitted: 21 Oct 2016; Re-submitted: DD Feb 2016
 
 ## Reference
 
-The manuscript is to be publisehd with Astronomy & Astrophysics, but a pre-print 
+The manuscript is to be published with Astronomy & Astrophysics, but a pre-print 
 may be downloaded from the arXiv/astro-ph.
 
