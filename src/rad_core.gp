@@ -1,5 +1,5 @@
 set encoding iso_8859_1
-set term postscript enhanced color rounded font "Times-Roman, 20" dashlength 1.1 fontfile "/usr/local/share/ghostscript/9.10/Resource/Font/cmsy10.pfb"
+set term postscript enhanced color rounded font "Times-Roman, 20" dashlength 1.1 fontfile "/usr/local/share/ghostscript/9.07/Resource/Font/cmsy10.pfb"
 
 set style line 1 lt 6 lw 2 #lc rgb "gray20"
 set style line 2 lt 4 lw 4 #lc rgb "#1e90ff"
@@ -23,7 +23,7 @@ set xtics 1000
 set mxtics 4
 set format x "%4.0f"
 
-set ylabel "Radiative Core Mass Difference (mag - std) "
+set ylabel "Radiative Core Mass Difference (M_{/CMSY10 \014}) [mag - std] "
 set yrange [0.0:0.4]
 set ytics 0.05
 set mytics 5
