@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex ms"] 1455918984 "ms.aux" "ms.bbl" "ms" 1456094495
+["bibtex ms"] 1456696205 "ms.aux" "ms.bbl" "ms" 1456696208
   "./aa.bst" 1454275142 30940 b49a3b201433d8c36a404323f1d158e8 ""
-  "ms.aux" 1456094494 17304 a61adfccc5819d4ecad444afd03c082d ""
+  "ms.aux" 1456696207 17304 0bb16b2a16699c7f8029dbddc554824d ""
   "ms.bcf" 0 -1 0 ""
   "papers.bib" 1455823109 576587 01100c43bb11ea937d9f61590023ff61 ""
   (generated)
-  "ms.blg"
   "ms.bbl"
-["pdflatex"] 1456094492 "ms.tex" "ms.pdf" "ms" 1456094495
+  "ms.blg"
+["pdflatex"] 1456696205 "ms.tex" "ms.pdf" "ms" 1456696208
   "./HR_diagram_age_USco-eps-converted-to.pdf" 1456093984 15800 4f73954889fdac97c4601521c49f9953 ""
   "./HR_diagram_age_USco.eps" 1456093940 96744 4f6c9bca87e8fcadaf53e29f1f1985c6 ""
   "./HR_diagram_split_USco-eps-converted-to.pdf" 1456093986 12047 2a6bd7e18b00cadcbd37833d3d8d3c73 ""
@@ -18,7 +18,7 @@
   "./USCO5_MR.eps" 1456093955 89278 3b53eedabe71f680a4a3bd05747cb4ed ""
   "./USco_median_HRD-eps-converted-to.pdf" 1455058468 31536 669b44fe0095f30ac48ccee0e7b685c3 ""
   "./USco_median_HRD.eps" 1454275153 109880 1097be18ab767a837f9fc39dd405bc79 ""
-  "./ms.out" 1456094494 726 11bcb7fb909402a26fa382c009291462 ""
+  "./ms.out" 1456696207 726 11bcb7fb909402a26fa382c009291462 ""
   "./radiative_core_masses-eps-converted-to.pdf" 1456094212 11949 c6565c7b70c8f59d03379699cb2e0f39 ""
   "./radiative_core_masses.eps" 1456094184 92895 2bcce3b828f1af21cd4ae4356dffbc79 ""
   "./radius_bump-eps-converted-to.pdf" 1455058468 12512 501fb70a88ef6c22185802b6252f1f95 ""
@@ -166,15 +166,15 @@
   "USco_median_HRD.eps" 1454275153 109880 1097be18ab767a837f9fc39dd405bc79 ""
   "aa.cls" 1454275142 66424 7bde39850ecb4535509db3caa3827be0 ""
   "defs.sty" 1454275147 546 df26f209fef22b298ac527819a3e2b3f ""
-  "ms.aux" 1456094494 17304 a61adfccc5819d4ecad444afd03c082d ""
-  "ms.bbl" 1455918985 9693 e2a97b9a06958b649b9615f35e224869 "bibtex ms"
-  "ms.out" 1456094494 726 11bcb7fb909402a26fa382c009291462 ""
-  "ms.tex" 1455926616 60971 cdfc87414e3564d5fc53147083b2538e ""
+  "ms.aux" 1456696207 17304 0bb16b2a16699c7f8029dbddc554824d ""
+  "ms.bbl" 1456696205 9693 e2a97b9a06958b649b9615f35e224869 "bibtex ms"
+  "ms.out" 1456696207 726 11bcb7fb909402a26fa382c009291462 ""
+  "ms.tex" 1456696201 61175 72ef2deafc50656a5735119ecd9effcb ""
   "radiative_core_masses.eps" 1456094184 92895 2bcce3b828f1af21cd4ae4356dffbc79 ""
   "radius_bump.eps" 1454275153 90597 b606e66e0b3a312e43773c1eea97b2ad ""
   (generated)
   "ms.aux"
   "ms.log"
   "ms.out"
-  "ms.llt"
   "ms.pdf"
+  "ms.llt"
