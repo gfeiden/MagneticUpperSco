@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{65}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allard} {et~al.}(2011){Allard}, {Homeier}, \&
@@ -118,6 +118,10 @@ Dotter, A., Chaboyer, B., Jevremovi\'{c}, D., {et~al.} 2008, \apjs, 178, 89
   {Ferguson}, {Baron}, \& {Alexander}}]{Hauschildt1999b}
 {Hauschildt}, P.~H., {Allard}, F., {Ferguson}, J., {Baron}, E., \& {Alexander},
   D.~R. 1999{\natexlab{b}}, \apj, 525, 871
+
+\bibitem[{{Henyey} {et~al.}(1955){Henyey}, {Lelevier}, \&
+  {Lev{\'e}e}}]{Henyey1955}
+{Henyey}, L.~G., {Lelevier}, R., \& {Lev{\'e}e}, R.~D. 1955, \pasp, 67, 154
 
 \bibitem[{{Herczeg} \& {Hillenbrand}(2015)}]{Herczeg2015}
 {Herczeg}, G.~J. \& {Hillenbrand}, L.~A. 2015, \apj, 808, 23

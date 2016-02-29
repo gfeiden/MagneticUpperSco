@@ -24,16 +24,22 @@ set mxtics 4
 set format x "%4.0f"
 
 set ylabel "Radiative Core Mass Difference (M_{/CMSY10 \014}) [mag - std] "
-set yrange [0.0:0.4]
-set ytics 0.05
-set mytics 5
+set yrange [-0.7:0.7]
+set ytics 0.2
+set mytics 4
 set format y "%4.2f"
 
-set key at 1.1, 1.0 font ", 14" tc rgb "gray20"
-set key samplen 6.5 
-set key spacing 2.5
+set key on at 5250, -0.35 font ", 16" tc rgb "gray20"
+set key samplen 6.0 
+set key spacing 3.0
 
-plot "../models/iso/rad_core_comp.txt" u (10**$2):($8 - $14 - $1 + $7) w l ls 2 notitle
+f(x) = 0.0
+
+set label "(c)" at 6500, 0.55 font ", 16" tc rgb "gray20" center
+
+plot f(x) w l dt '_' lc rgb "gray20" lw 2 notitle, \
+     "../models/iso/rad_core_comp.txt" u (10**$2):($8 - $14 - $1 + $7) w l ls 2 title "10 Myr - 10 Myr", \
+     "../models/iso/rad_core_comp_dage.txt" u (10**$2):($8 - $14 - $1 + $7) w l ls 2 dt '-' title "10 Myr -   5 Myr"
 
 #########################
 # Radiative Core Masses #
