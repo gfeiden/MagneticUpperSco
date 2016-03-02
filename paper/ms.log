@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  29 FEB 2016 16:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  2 MAR 2016 11:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,11 +1081,6 @@ Package hyperref Warning: Suppressing link with empty target on input line 236.
 
 [5 <./HR_diagram_age_USco-eps-converted-to.pdf> <./HR_diagram_split_USco-eps-co
 nverted-to.pdf>]
-
-Package hyperref Warning: Suppressing link with empty target on input line 257.
-
-
-[6 <./USCO5_MR-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <radiative_core_masses.eps>
 (epstopdf)                    date: 2016-02-22 09:44:51
 (epstopdf)                    size: 92895 bytes
@@ -1095,15 +1090,15 @@ Package epstopdf Info: Source file: <radiative_core_masses.eps>
 (epstopdf)                    size: 11949 bytes
 (epstopdf)             Command: <repstopdf --outfile=radiative_core_masses-eps-
 converted-to.pdf radiative_core_masses.eps>
-(epstopdf)             \includegraphics on input line 270.
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
-<radiative_core_masses-eps-converted-to.pdf, id=428, 474.77374pt x 479.7925pt>
+<radiative_core_masses-eps-converted-to.pdf, id=387, 474.77374pt x 479.7925pt>
 File: radiative_core_masses-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radiative_core_masses-eps-converted-to.pdf>
 Package pdftex.def Info: radiative_core_masses-eps-converted-to.pdf used on inp
-ut line 270.
+ut line 256.
 (pdftex.def)             Requested size: 219.88193pt x 222.20802pt.
 Package epstopdf Info: Source file: <radiative_core_mass_difference.eps>
 (epstopdf)                    date: 2016-02-29 10:47:55
@@ -1114,23 +1109,29 @@ ed-to.pdf>
 (epstopdf)                    size: 10735 bytes
 (epstopdf)             Command: <repstopdf --outfile=radiative_core_mass_differ
 ence-eps-converted-to.pdf radiative_core_mass_difference.eps>
-(epstopdf)             \includegraphics on input line 271.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<radiative_core_mass_difference-eps-converted-to.pdf, id=429, 541.02126pt x 479
+<radiative_core_mass_difference-eps-converted-to.pdf, id=388, 541.02126pt x 479
 .7925pt>
 File: radiative_core_mass_difference-eps-converted-to.pdf Graphic file (type pd
 f)
  <use radiative_core_mass_difference-eps-converted-to.pdf>
 Package pdftex.def Info: radiative_core_mass_difference-eps-converted-to.pdf us
-ed on input line 271.
+ed on input line 257.
 (pdftex.def)             Requested size: 251.2925pt x 222.85228pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 296.
+Package hyperref Warning: Suppressing link with empty target on input line 267.
 
 
-[7]
+[6 <./USCO5_MR-eps-converted-to.pdf>]
+
+Package hyperref Warning: Suppressing link with empty target on input line 277.
+
+
+[7 <./radiative_core_masses-eps-converted-to.pdf> <./radiative_core_mass_differ
+ence-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    date: 2016-02-01 09:34:15
 (epstopdf)                    size: 90597 bytes
@@ -1141,7 +1142,8 @@ Package epstopdf Info: Source file: <radius_bump.eps>
 to.pdf radius_bump.eps>
 (epstopdf)             \includegraphics on input line 308.
 Package epstopdf Info: Output file is already uptodate.
- <radius_bump-eps-converted-to.pdf, id=480, 498.86375pt x 479.7925pt>
+
+<radius_bump-eps-converted-to.pdf, id=493, 498.86375pt x 479.7925pt>
 File: radius_bump-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radius_bump-eps-converted-to.pdf>
@@ -1149,15 +1151,11 @@ Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 30
 8.
 (pdftex.def)             Requested size: 217.66513pt x 209.34497pt.
 
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
-
 
 Package hyperref Warning: Suppressing link with empty target on input line 317.
 
 
-[8 <./radiative_core_masses-eps-converted-to.pdf> <./radiative_core_mass_differ
-ence-eps-converted-to.pdf>]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 318--319
 []\T1/txr/m/n/10 Photometric bright-ness mod-u-la-tion is ob-served in
  []
@@ -1197,7 +1195,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 337.
 [9 <./radius_bump-eps-converted-to.pdf> <./Li7_USco_Beq-eps-converted-to.pdf>]
 (./ms.bbl
 
-Package hyperref Warning: Suppressing link with empty target on input line 198.
+Package hyperref Warning: Suppressing link with empty target on input line 205.
 
 
 [10] (./ms.llt))
@@ -1223,7 +1221,7 @@ Here is how much of TeX's memory you used:
  12710 multiletter control sequences out of 15000+600000
  101355 words of font info for 150 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,12n,45p,1839b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,1839b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2
@@ -1240,7 +1238,7 @@ texlive/2013/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (11 pages, 281668 bytes).
+Output written on ms.pdf (11 pages, 281753 bytes).
 PDF statistics:
  740 PDF objects out of 1000 (max. 8388607)
  678 compressed objects within 7 object streams
