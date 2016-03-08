@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex ms"] 1457107416 "ms.aux" "ms.bbl" "ms" 1457107417
+["bibtex ms"] 1457455542 "ms.aux" "ms.bbl" "ms" 1457455544
   "./aa.bst" 1454315655 30940 b49a3b201433d8c36a404323f1d158e8 ""
-  "ms.aux" 1457107417 19536 5062575318fa1e33f1d6f6eb6f774db7 ""
+  "ms.aux" 1457455544 19556 1aed3a488e03182c9cf613ac6d92f805 ""
   "ms.bcf" 0 -1 0 ""
   "papers.bib" 1457105547 581709 c3cd5737ded274bd8b0ae1a491f58ac1 ""
   (generated)
   "ms.blg"
   "ms.bbl"
-["pdflatex"] 1457107416 "ms.tex" "ms.pdf" "ms" 1457107417
+["pdflatex"] 1457455543 "ms.tex" "ms.pdf" "ms" 1457455544
   "./HR_diagram_age_USco-eps-converted-to.pdf" 1456130691 15800 4f73954889fdac97c4601521c49f9953 ""
   "./HR_diagram_age_USco.eps" 1456130691 96744 4f6c9bca87e8fcadaf53e29f1f1985c6 ""
   "./HR_diagram_split_USco-eps-converted-to.pdf" 1456130691 12047 2a6bd7e18b00cadcbd37833d3d8d3c73 ""
@@ -18,7 +18,7 @@
   "./USCO5_MR.eps" 1456130691 89278 3b53eedabe71f680a4a3bd05747cb4ed ""
   "./USco_median_HRD-eps-converted-to.pdf" 1455010045 31536 669b44fe0095f30ac48ccee0e7b685c3 ""
   "./USco_median_HRD.eps" 1454315655 109880 1097be18ab767a837f9fc39dd405bc79 ""
-  "./ms.out" 1457107417 751 3b09412f182ca985aaf3053d51a3b541 ""
+  "./ms.out" 1457455544 751 3b09412f182ca985aaf3053d51a3b541 ""
   "./radiative_core_mass_difference-eps-converted-to.pdf" 1456739287 10735 5395b8b5f5447e26c731130b0a550853 ""
   "./radiative_core_mass_difference.eps" 1456739275 88099 731509fc0ae800c6d832ab0b04324472 ""
   "./radiative_core_masses-eps-converted-to.pdf" 1456130691 11949 c6565c7b70c8f59d03379699cb2e0f39 ""
@@ -173,10 +173,10 @@
   "USco_median_HRD.eps" 1454315655 109880 1097be18ab767a837f9fc39dd405bc79 ""
   "aa.cls" 1454315655 66424 7bde39850ecb4535509db3caa3827be0 ""
   "defs.sty" 1454315655 546 df26f209fef22b298ac527819a3e2b3f ""
-  "ms.aux" 1457107417 19536 5062575318fa1e33f1d6f6eb6f774db7 ""
-  "ms.bbl" 1457107416 10753 9223fae0fe8d7cbb4f96acc949960bec "bibtex ms"
-  "ms.out" 1457107417 751 3b09412f182ca985aaf3053d51a3b541 ""
-  "ms.tex" 1457107414 67840 a74dcb66665f4611392eaf23e037c7b9 ""
+  "ms.aux" 1457455544 19556 1aed3a488e03182c9cf613ac6d92f805 ""
+  "ms.bbl" 1457455543 10753 9223fae0fe8d7cbb4f96acc949960bec "bibtex ms"
+  "ms.out" 1457455544 751 3b09412f182ca985aaf3053d51a3b541 ""
+  "ms.tex" 1457455539 67965 8047f4f8207ff085dbf07b37c04eac94 ""
   "radiative_core_mass_difference.eps" 1456739275 88099 731509fc0ae800c6d832ab0b04324472 ""
   "radiative_core_masses.eps" 1456130691 92895 2bcce3b828f1af21cd4ae4356dffbc79 ""
   "radius_bump.eps" 1454315655 90597 b606e66e0b3a312e43773c1eea97b2ad ""

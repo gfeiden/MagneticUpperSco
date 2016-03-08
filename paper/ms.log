@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  4 MAR 2016 17:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  8 MAR 2016 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,6 +1081,10 @@ Package hyperref Warning: Suppressing link with empty target on input line 236.
 
 [5 <./HR_diagram_age_USco-eps-converted-to.pdf> <./HR_diagram_split_USco-eps-co
 nverted-to.pdf>]
+Underfull \hbox (badness 1308) in paragraph at lines 249--250
+\T1/txr/bx/n/10 agrees with pre-dic-tions from a 5 Myr stan-dard model
+ []
+
 Package epstopdf Info: Source file: <radiative_core_masses.eps>
 (epstopdf)                    date: 2016-02-22 09:44:51
 (epstopdf)                    size: 92895 bytes
@@ -1122,7 +1126,7 @@ ed on input line 258.
 (pdftex.def)             Requested size: 251.2925pt x 222.85228pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 268.
+Package hyperref Warning: Suppressing link with empty target on input line 267.
 
 
 [6 <./USCO5_MR-eps-converted-to.pdf>]
@@ -1132,7 +1136,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 282.
 
 [7 <./radiative_core_masses-eps-converted-to.pdf> <./radiative_core_mass_differ
 ence-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 8132) has occurred while \output is active []
 
 
 Underfull \vbox (badness 4341) has occurred while \output is active []
@@ -1153,7 +1157,7 @@ Package epstopdf Info: Source file: <radius_bump.eps>
 to.pdf radius_bump.eps>
 (epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
- <radius_bump-eps-converted-to.pdf, id=511, 498.86375pt x 479.7925pt>
+ <radius_bump-eps-converted-to.pdf, id=513, 498.86375pt x 479.7925pt>
 File: radius_bump-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radius_bump-eps-converted-to.pdf>
@@ -1185,7 +1189,7 @@ Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
 -to.pdf Li7_USco_Beq.eps>
 (epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
-<Li7_USco_Beq-eps-converted-to.pdf, id=539, 500.87125pt x 485.815pt>
+<Li7_USco_Beq-eps-converted-to.pdf, id=541, 500.87125pt x 485.815pt>
 File: Li7_USco_Beq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Li7_USco_Beq-eps-converted-to.pdf>
@@ -1245,10 +1249,10 @@ texlive/2013/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (11 pages, 283815 bytes).
+Output written on ms.pdf (11 pages, 283923 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 688 compressed objects within 7 object streams
+ 752 PDF objects out of 1000 (max. 8388607)
+ 690 compressed objects within 7 object streams
  110 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
