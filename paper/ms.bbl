@@ -1,4 +1,4 @@
-\begin{thebibliography}{67}
+\begin{thebibliography}{69}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allard} {et~al.}(2011){Allard}, {Homeier}, \&
@@ -54,11 +54,6 @@
 \bibitem[{{Binks} \& {Jeffries}(2016)}]{Binks2016}
 {Binks}, A.~S. \& {Jeffries}, R.~D. 2016, \mnras, 455, 3345
 
-\bibitem[{{Bodenheimer} {et~al.}(1965){Bodenheimer}, {Forbes}, {Gould}, \&
-  {Henyey}}]{Bodenheimer1965}
-{Bodenheimer}, P., {Forbes}, J.~E., {Gould}, N.~L., \& {Henyey}, L.~G. 1965,
-  \apj, 141, 1019
-
 \bibitem[{{D'Antona} {et~al.}(2000){D'Antona}, {Ventura}, \&
   {Mazzitelli}}]{DAntona2000}
 {D'Antona}, F., {Ventura}, P., \& {Mazzitelli}, I. 2000, \apj, 543, L77
@@ -111,6 +106,10 @@ Dotter, A., Chaboyer, B., Jevremovi\'{c}, D., {et~al.} 2008, \apjs, 178, 89
 {Ferguson}, J.~W., {Alexander}, D.~R., {Allard}, F., {et~al.} 2005, \apj, 623,
   585
 
+\bibitem[{{Gregory} {et~al.}(2012){Gregory}, {Donati}, {Morin}, {Hussain},
+  {Mayne}, {Hillenbrand}, \& {Jardine}}]{Gregory2012}
+{Gregory}, S.~G., {Donati}, J.-F., {Morin}, J., {et~al.} 2012, \apj, 755, 97
+
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{GS98}
 {Grevesse}, N. \& {Sauval}, A.~J. 1998, \ssr, 85, 161
 
@@ -123,10 +122,6 @@ Dotter, A., Chaboyer, B., Jevremovi\'{c}, D., {et~al.} 2008, \apjs, 178, 89
   {Ferguson}, {Baron}, \& {Alexander}}]{Hauschildt1999b}
 {Hauschildt}, P.~H., {Allard}, F., {Ferguson}, J., {Baron}, E., \& {Alexander},
   D.~R. 1999{\natexlab{b}}, \apj, 525, 871
-
-\bibitem[{{Henyey} {et~al.}(1955){Henyey}, {Lelevier}, \&
-  {Lev{\'e}e}}]{Henyey1955}
-{Henyey}, L.~G., {Lelevier}, R., \& {Lev{\'e}e}, R.~D. 1955, \pasp, 67, 154
 
 \bibitem[{{Herczeg} \& {Hillenbrand}(2015)}]{Herczeg2015}
 {Herczeg}, G.~J. \& {Hillenbrand}, L.~A. 2015, \apj, 808, 23
@@ -206,6 +201,11 @@ P\'erez, F. \& Granger, B.~E. 2007, Computing in Science and Engineering, 9, 21
 \bibitem[{{Preibisch} \& {Zinnecker}(1999)}]{Preibisch1999}
 {Preibisch}, T. \& {Zinnecker}, H. 1999, \aj, 117, 2381
 
+\bibitem[{R\'{e}ville {et~al.}(2015)R\'{e}ville, Brun, Matt, Strugarek, \&
+  Pinto}]{Reville2015}
+R\'{e}ville, V., Brun, A.~S., Matt, S.~P., Strugarek, A., \& Pinto, R.~F. 2015,
+  Astrophys. J., 798
+
 \bibitem[{{Rizzuto} {et~al.}(2015{\natexlab{a}}){Rizzuto}, {Ireland}, {Dupuy},
   \& {Kraus}}]{Rizzuto2015b}
 {Rizzuto}, A.~C., {Ireland}, M.~J., {Dupuy}, T.~J., \& {Kraus}, A.~L.
@@ -233,6 +233,9 @@ P\'erez, F. \& Granger, B.~E. 2007, Computing in Science and Engineering, 9, 21
 {Shulyak}, D., {Reiners}, A., {Seemann}, U., {Kochukhov}, O., \& {Piskunov}, N.
   2014, \aap, 563, A35
 
+\bibitem[{{Siess} {et~al.}(2000){Siess}, {Dufour}, \& {Forestini}}]{Siess2000}
+{Siess}, L., {Dufour}, E., \& {Forestini}, M. 2000, \aap, 358, 593
+
 \bibitem[{{Slesnick} {et~al.}(2008){Slesnick}, {Hillenbrand}, \&
   {Carpenter}}]{Slesnick2008}
 {Slesnick}, C.~L., {Hillenbrand}, L.~A., \& {Carpenter}, J.~M. 2008, \apj, 688,
@@ -253,6 +256,12 @@ P\'erez, F. \& Granger, B.~E. 2007, Computing in Science and Engineering, 9, 21
 
 \bibitem[{Torres {et~al.}(2010)Torres, Andersen, \& Gim\'{e}nez}]{Torres2010}
 Torres, G., Andersen, J., \& Gim\'{e}nez, A. 2010, \aapr, 18, 67
+
+\bibitem[{{van Saders} {et~al.}(2016){van Saders}, {Ceillier}, {Metcalfe},
+  {Aguirre}, {Pinsonneault}, {Garc{\'{\i}}a}, {Mathur}, \&
+  {Davies}}]{vanSaders2016}
+{van Saders}, J.~L., {Ceillier}, T., {Metcalfe}, T.~S., {et~al.} 2016, \nat,
+  529, 181
 
 \bibitem[{{Ventura} {et~al.}(1998){Ventura}, {Zeppieri}, {Mazzitelli}, \&
   {D'Antona}}]{Ventura1998}
