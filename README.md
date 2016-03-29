@@ -27,7 +27,7 @@ These results suggest that magnetic inhibition of convection plays an important
 role in the early evolution of low-mass stars and that it may be responsible for 
 noted age discrepancies in young stellar populations.
 
-Submitted: 21 Oct 2016; Re-submitted: DD Feb 2016
+Submitted: 21 Oct 2016; Re-submitted: DD Mmm 2016
 
 ## Reference
 
