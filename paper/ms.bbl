@@ -1,4 +1,4 @@
-\begin{thebibliography}{69}
+\begin{thebibliography}{71}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allard} {et~al.}(2011){Allard}, {Homeier}, \&
@@ -54,14 +54,26 @@
 \bibitem[{{Binks} \& {Jeffries}(2016)}]{Binks2016}
 {Binks}, A.~S. \& {Jeffries}, R.~D. 2016, \mnras, 455, 3345
 
+\bibitem[{{Bodenheimer} {et~al.}(1965){Bodenheimer}, {Forbes}, {Gould}, \&
+  {Henyey}}]{Bodenheimer1965}
+{Bodenheimer}, P., {Forbes}, J.~E., {Gould}, N.~L., \& {Henyey}, L.~G. 1965,
+  \apj, 141, 1019
+
+\bibitem[{Cantiello {et~al.}(2016)Cantiello, Fuller, \&
+  Bildsten}]{Cantiello2016}
+Cantiello, M., Fuller, J., \& Bildsten, L. 2016, arXiv: 1602.03056
+
+\bibitem[{{Chabrier}(2003)}]{Chabrier2003}
+{Chabrier}, G. 2003, \pasp, 115, 763
+
 \bibitem[{{D'Antona} {et~al.}(2000){D'Antona}, {Ventura}, \&
   {Mazzitelli}}]{DAntona2000}
 {D'Antona}, F., {Ventura}, P., \& {Mazzitelli}, I. 2000, \apj, 543, L77
 
-\bibitem[{{David} {et~al.}(2015){David}, {Hillenbrand}, {Cody}, {Carpenter}, \&
-  {Howard}}]{David2015b}
+\bibitem[{{David} {et~al.}(2016){David}, {Hillenbrand}, {Cody}, {Carpenter}, \&
+  {Howard}}]{David2016}
 {David}, T.~J., {Hillenbrand}, L.~A., {Cody}, A.~M., {Carpenter}, J.~M., \&
-  {Howard}, A.~W. 2015, arXiv: 1510.08087
+  {Howard}, A.~W. 2016, \apj, 816, 21
 
 \bibitem[{{de Geus}(1992)}]{deGeus1992}
 {de Geus}, E.~J. 1992, \aap, 262, 258
@@ -105,6 +117,11 @@ Dotter, A., Chaboyer, B., Jevremovi\'{c}, D., {et~al.} 2008, \apjs, 178, 89
   {Bodnarik}, {Hauschildt}, {Heffner-Wong}, \& {Tamanai}}]{Ferguson2005}
 {Ferguson}, J.~W., {Alexander}, D.~R., {Allard}, F., {et~al.} 2005, \apj, 623,
   585
+
+\bibitem[{Fuller {et~al.}(2015)Fuller, Cantiello, Stello, Garcia, \&
+  Bildsten}]{Fuller2015}
+Fuller, J., Cantiello, M., Stello, D., Garcia, R.~A., \& Bildsten, L. 2015,
+  Science, 350, 423
 
 \bibitem[{{Gregory} {et~al.}(2012){Gregory}, {Donati}, {Morin}, {Hussain},
   {Mayne}, {Hillenbrand}, \& {Jardine}}]{Gregory2012}
@@ -201,11 +218,6 @@ P\'erez, F. \& Granger, B.~E. 2007, Computing in Science and Engineering, 9, 21
 \bibitem[{{Preibisch} \& {Zinnecker}(1999)}]{Preibisch1999}
 {Preibisch}, T. \& {Zinnecker}, H. 1999, \aj, 117, 2381
 
-\bibitem[{R\'{e}ville {et~al.}(2015)R\'{e}ville, Brun, Matt, Strugarek, \&
-  Pinto}]{Reville2015}
-R\'{e}ville, V., Brun, A.~S., Matt, S.~P., Strugarek, A., \& Pinto, R.~F. 2015,
-  Astrophys. J., 798
-
 \bibitem[{{Rizzuto} {et~al.}(2015{\natexlab{a}}){Rizzuto}, {Ireland}, {Dupuy},
   \& {Kraus}}]{Rizzuto2015b}
 {Rizzuto}, A.~C., {Ireland}, M.~J., {Dupuy}, T.~J., \& {Kraus}, A.~L.
@@ -250,18 +262,12 @@ R\'{e}ville, V., Brun, A.~S., Matt, S.~P., Strugarek, A., \& Pinto, R.~F. 2015,
 \bibitem[{{Spruit} \& {Weiss}(1986)}]{Spruit1986}
 {Spruit}, H.~C. \& {Weiss}, A. 1986, \aap, 166, 167
 
-\bibitem[{{Stassun} {et~al.}(2014){Stassun}, {Feiden}, \&
-  {Torres}}]{Stassun2014}
-{Stassun}, K.~G., {Feiden}, G.~A., \& {Torres}, G. 2014, New Ast.\ Rev., 60, 1
+\bibitem[{Stello {et~al.}(2016)Stello, Cantiello, Fuller, Huber, Garc\'{\i}a,
+  Bedding, Bildsten, \& Aguirre}]{Stello2016a}
+Stello, D., Cantiello, M., Fuller, J., {et~al.} 2016, Nature, 529, 364
 
 \bibitem[{Torres {et~al.}(2010)Torres, Andersen, \& Gim\'{e}nez}]{Torres2010}
 Torres, G., Andersen, J., \& Gim\'{e}nez, A. 2010, \aapr, 18, 67
-
-\bibitem[{{van Saders} {et~al.}(2016){van Saders}, {Ceillier}, {Metcalfe},
-  {Aguirre}, {Pinsonneault}, {Garc{\'{\i}}a}, {Mathur}, \&
-  {Davies}}]{vanSaders2016}
-{van Saders}, J.~L., {Ceillier}, T., {Metcalfe}, T.~S., {et~al.} 2016, \nat,
-  529, 181
 
 \bibitem[{{Ventura} {et~al.}(1998){Ventura}, {Zeppieri}, {Mazzitelli}, \&
   {D'Antona}}]{Ventura1998}
