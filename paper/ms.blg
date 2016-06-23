@@ -1,46 +1,84 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_8)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ms.aux
 The style file: aa.bst
-Database file #1: papers.bib.bib
-You've used 71 entries,
+I found no \bibdata command---while reading file ms.aux
+Warning--I didn't find a database entry for "deGeus1992"
+Warning--I didn't find a database entry for "Preibisch2002"
+Warning--I didn't find a database entry for "Slesnick2008"
+Warning--I didn't find a database entry for "Sartori2003"
+Warning--I didn't find a database entry for "Pecaut2012"
+Warning--I didn't find a database entry for "Herczeg2015"
+Warning--I didn't find a database entry for "Rizzuto2015"
+Warning--I didn't find a database entry for "Rizzuto2015b"
+Warning--I didn't find a database entry for "Naylor2009"
+Warning--I didn't find a database entry for "Bell2012"
+Warning--I didn't find a database entry for "Malo2014"
+Warning--I didn't find a database entry for "Hillenbrand2008"
+Warning--I didn't find a database entry for "Bell2013"
+Warning--I didn't find a database entry for "Kraus2015"
+Warning--I didn't find a database entry for "Alonso2015"
+Warning--I didn't find a database entry for "David2016"
+Warning--I didn't find a database entry for "Lodieu2015"
+Warning--I didn't find a database entry for "Andersen1991"
+Warning--I didn't find a database entry for "Torres2010"
+Warning--I didn't find a database entry for "Pecaut2013"
+Warning--I didn't find a database entry for "MM10"
+Warning--I didn't find a database entry for "FC12b"
+Warning--I didn't find a database entry for "Dotter2008"
+Warning--I didn't find a database entry for "Hauschildt1999a"
+Warning--I didn't find a database entry for "Hauschildt1999b"
+Warning--I didn't find a database entry for "GS98"
+Warning--I didn't find a database entry for "Ferguson2005"
+Warning--I didn't find a database entry for "FC13"
+Warning--I didn't find a database entry for "FC14"
+Warning--I didn't find a database entry for "FC14b"
+Warning--I didn't find a database entry for "Bahcall2005"
+Warning--I didn't find a database entry for "Neckel1995"
+Warning--I didn't find a database entry for "Basu1997"
+Warning--I didn't find a database entry for "Basu1998"
+Warning--I didn't find a database entry for "Basu2004"
+Warning--I didn't find a database entry for "deZeeuw1999"
+Warning--I didn't find a database entry for "Preibisch1999"
+You've used 0 entries,
             2947 wiz_defined-function locations,
-            1113 strings with 17261 characters,
-and the built_in function-call counts, 32203 in all, are:
-= -- 2722
-> -- 2303
-< -- 37
-+ -- 764
-- -- 687
-* -- 2654
-:= -- 5959
-add.period$ -- 71
-call.type$ -- 71
-change.case$ -- 511
-chr.to.int$ -- 67
-cite$ -- 71
-duplicate$ -- 1336
-empty$ -- 1850
-format.name$ -- 906
-if$ -- 6351
-int.to.chr$ -- 5
+            719 strings with 5258 characters,
+and the built_in function-call counts, 23 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 67
-newline$ -- 217
-num.names$ -- 287
-pop$ -- 537
+missing$ -- 0
+newline$ -- 4
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 511
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1131
+skip$ -- 1
 stack$ -- 0
-substring$ -- 1419
-swap$ -- 30
-text.length$ -- 3
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 639
+type$ -- 0
 warning$ -- 0
-while$ -- 284
+while$ -- 0
 width$ -- 0
-write$ -- 711
+write$ -- 3
+(There was 1 error message)

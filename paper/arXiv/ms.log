@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  27 APR 2016 14:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.16)  23 JUN 2016 15:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,11 +671,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip123
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 
-Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 21.
-
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
 (./defs.sty) (/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
@@ -763,43 +760,43 @@ LaTeX Info: Redefining \not on input line 1043.
 ) (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 34.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 34.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 33.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 33.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 34.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 33.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 34.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 33.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 34.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 34.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 33.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 34.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 33.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -875,7 +872,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 34.
+Package hyperref Info: Link coloring ON on input line 33.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -885,9 +882,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count141
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./ms.out) (./ms.out)
 \@outlinefile=\write3
@@ -959,7 +956,7 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 Package hyperref Info: bookmark level for unknown obj defaults to 0 on input li
 ne 58.
 
-Underfull \vbox (badness 1237) has occurred while \output is active []
+Underfull \vbox (badness 2229) has occurred while \output is active []
 
 
 
@@ -970,7 +967,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 65.
 
 ]
 
-Package hyperref Warning: Suppressing link with empty target on input line 129.
+Package hyperref Warning: Suppressing link with empty target on input line 127.
 
 
 [2]
@@ -1049,12 +1046,10 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 192.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 204.
+Package hyperref Warning: Suppressing link with empty target on input line 203.
 
 
 [4 <./USco_median_HRD-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package epstopdf Info: Source file: <USCO5_MR.eps>
 (epstopdf)                    date: 2016-04-27 13:24:35
 (epstopdf)                    size: 89278 bytes
@@ -1073,77 +1068,69 @@ File: USCO5_MR-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: USCO5_MR-eps-converted-to.pdf used on input line 215.
 (pdftex.def)             Requested size: 230.46574pt x 209.88861pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 222.
+Package hyperref Warning: Suppressing link with empty target on input line 221.
 
 
 [5 <./HR_diagram_age_USco-eps-converted-to.pdf> <./HR_diagram_split_USco-eps-co
 nverted-to.pdf>]
-Package epstopdf Info: Source file: <radiative_core_masses.eps>
-(epstopdf)                    date: 2016-04-27 13:24:35
-(epstopdf)                    size: 92895 bytes
-(epstopdf)             Output file: <radiative_core_masses-eps-converted-to.pdf
+Package epstopdf Info: Source file: <convective_env_masses.eps>
+(epstopdf)                    date: 2016-06-23 14:40:51
+(epstopdf)                    size: 93337 bytes
+(epstopdf)             Output file: <convective_env_masses-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2016-04-27 13:24:51
-(epstopdf)                    size: 11948 bytes
-(epstopdf)             Command: <repstopdf --outfile=radiative_core_masses-eps-
-converted-to.pdf radiative_core_masses.eps>
+(epstopdf)                    date: 2016-06-23 14:42:13
+(epstopdf)                    size: 12080 bytes
+(epstopdf)             Command: <repstopdf --outfile=convective_env_masses-eps-
+converted-to.pdf convective_env_masses.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<radiative_core_masses-eps-converted-to.pdf, id=391, 474.77374pt x 479.7925pt>
-File: radiative_core_masses-eps-converted-to.pdf Graphic file (type pdf)
+<convective_env_masses-eps-converted-to.pdf, id=391, 474.77374pt x 479.7925pt>
+File: convective_env_masses-eps-converted-to.pdf Graphic file (type pdf)
 
-<use radiative_core_masses-eps-converted-to.pdf>
-Package pdftex.def Info: radiative_core_masses-eps-converted-to.pdf used on inp
+<use convective_env_masses-eps-converted-to.pdf>
+Package pdftex.def Info: convective_env_masses-eps-converted-to.pdf used on inp
 ut line 238.
 (pdftex.def)             Requested size: 219.88193pt x 222.20802pt.
-Package epstopdf Info: Source file: <radiative_core_mass_difference.eps>
-(epstopdf)                    date: 2016-04-27 13:24:35
-(epstopdf)                    size: 88099 bytes
-(epstopdf)             Output file: <radiative_core_mass_difference-eps-convert
+Package epstopdf Info: Source file: <convective_env_mass_difference.eps>
+(epstopdf)                    date: 2016-06-23 14:40:51
+(epstopdf)                    size: 87547 bytes
+(epstopdf)             Output file: <convective_env_mass_difference-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2016-04-27 13:24:52
-(epstopdf)                    size: 10652 bytes
-(epstopdf)             Command: <repstopdf --outfile=radiative_core_mass_differ
-ence-eps-converted-to.pdf radiative_core_mass_difference.eps>
+(epstopdf)                    date: 2016-06-23 14:42:13
+(epstopdf)                    size: 10443 bytes
+(epstopdf)             Command: <repstopdf --outfile=convective_env_mass_differ
+ence-eps-converted-to.pdf convective_env_mass_difference.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
-<radiative_core_mass_difference-eps-converted-to.pdf, id=392, 541.02126pt x 479
+<convective_env_mass_difference-eps-converted-to.pdf, id=392, 541.02126pt x 479
 .7925pt>
-File: radiative_core_mass_difference-eps-converted-to.pdf Graphic file (type pd
+File: convective_env_mass_difference-eps-converted-to.pdf Graphic file (type pd
 f)
- <use radiative_core_mass_difference-eps-converted-to.pdf>
-Package pdftex.def Info: radiative_core_mass_difference-eps-converted-to.pdf us
+ <use convective_env_mass_difference-eps-converted-to.pdf>
+Package pdftex.def Info: convective_env_mass_difference-eps-converted-to.pdf us
 ed on input line 239.
 (pdftex.def)             Requested size: 251.2925pt x 222.85228pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 248.
+Package hyperref Warning: Suppressing link with empty target on input line 247.
 
 
 [6 <./USCO5_MR-eps-converted-to.pdf>]
+Underfull \vbox (badness 4660) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 260.
+Package hyperref Warning: Suppressing link with empty target on input line 257.
 
 
-[7 <./radiative_core_masses-eps-converted-to.pdf> <./radiative_core_mass_differ
+[7 <./convective_env_masses-eps-converted-to.pdf> <./convective_env_mass_differ
 ence-eps-converted-to.pdf>]
-Underfull \vbox (badness 2343) has occurred while \output is active []
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 282.
-
-
-[8]
 Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    date: 2016-04-27 13:24:35
 (epstopdf)                    size: 90597 bytes
@@ -1152,35 +1139,39 @@ Package epstopdf Info: Source file: <radius_bump.eps>
 (epstopdf)                    size: 12451 bytes
 (epstopdf)             Command: <repstopdf --outfile=radius_bump-eps-converted-
 to.pdf radius_bump.eps>
-(epstopdf)             \includegraphics on input line 287.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
- <radius_bump-eps-converted-to.pdf, id=543, 498.86375pt x 479.7925pt>
+
+<radius_bump-eps-converted-to.pdf, id=517, 498.86375pt x 479.7925pt>
 File: radius_bump-eps-converted-to.pdf Graphic file (type pdf)
 
 <use radius_bump-eps-converted-to.pdf>
-Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 28
-7.
+Package pdftex.def Info: radius_bump-eps-converted-to.pdf used on input line 27
+8.
 (pdftex.def)             Requested size: 217.66513pt x 209.34497pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 285.
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 []\T1/txr/m/n/10 Photometric bright-ness mod-u-la-tion is ob-served in
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 297--298
+Underfull \hbox (badness 5260) in paragraph at lines 296--297
 \T1/txr/m/n/10 lightcurves of US-coC-TIO5 and HD 144548, sug-gest-ing
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 297--298
+Underfull \hbox (badness 1122) in paragraph at lines 296--297
 \T1/txr/m/n/10 mag-netic field of near-equipartition value, ac-com-pa-nied by
  []
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 304.
-
-
-[9 <./radius_bump-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
 (epstopdf)                    date: 2016-04-27 13:24:35
 (epstopdf)                    size: 89063 bytes
@@ -1189,39 +1180,46 @@ Package epstopdf Info: Source file: <Li7_USco_Beq.eps>
 (epstopdf)                    size: 11933 bytes
 (epstopdf)             Command: <repstopdf --outfile=Li7_USco_Beq-eps-converted
 -to.pdf Li7_USco_Beq.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
-
-<Li7_USco_Beq-eps-converted-to.pdf, id=632, 500.87125pt x 485.815pt>
+<Li7_USco_Beq-eps-converted-to.pdf, id=576, 500.87125pt x 485.815pt>
 File: Li7_USco_Beq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Li7_USco_Beq-eps-converted-to.pdf>
 Package pdftex.def Info: Li7_USco_Beq-eps-converted-to.pdf used on input line 3
-07.
+02.
 (pdftex.def)             Requested size: 217.66513pt x 211.12025pt.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 335.
+Package hyperref Warning: Suppressing link with empty target on input line 308.
+
+
+[9 <./radius_bump-eps-converted-to.pdf>]
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 332.
 
 
 [10 <./Li7_USco_Beq-eps-converted-to.pdf>] (./ms.llt)
 
-Package hyperref Warning: Suppressing link with empty target on input line 619.
+Package hyperref Warning: Suppressing link with empty target on input line 621.
 
 
 [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 619.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 619.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 619.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 619.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
 Package rerunfilecheck Info: File `ms.out' has not changed.
 (rerunfilecheck)             Checksum: EF0CC873F5E9EEB80F18BFEE7C0C9C3F;822.
  ) 
 Here is how much of TeX's memory you used:
- 9616 strings out of 493315
- 134052 string characters out of 6137903
- 249559 words of memory out of 5000000
+ 9617 strings out of 493315
+ 134063 string characters out of 6137903
+ 252581 words of memory out of 5000000
  12715 multiletter control sequences out of 15000+600000
  95291 words of font info for 144 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1240,10 +1238,10 @@ s/type1/public/txfonts/txex.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ms.pdf (11 pages, 268371 bytes).
+Output written on ms.pdf (11 pages, 269513 bytes).
 PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
- 726 compressed objects within 8 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 732 compressed objects within 8 object streams
+ 116 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
