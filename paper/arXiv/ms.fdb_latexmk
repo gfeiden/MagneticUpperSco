@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1466687522 "ms.tex" "ms.pdf" "ms" 1466687523
+["pdflatex"] 1467021393 "ms.tex" "ms.pdf" "ms" 1467021393
   "./HR_diagram_age_USco-eps-converted-to.pdf" 1461756287 15798 ff6a8d233a863e46a3d57f35e5064013 ""
   "./HR_diagram_age_USco.eps" 1461756275 96744 4f6c9bca87e8fcadaf53e29f1f1985c6 ""
   "./HR_diagram_split_USco-eps-converted-to.pdf" 1461756288 12048 9c0477a3e4c068aedf087500211f7904 ""
@@ -14,7 +14,7 @@
   "./convective_env_mass_difference.eps" 1466685651 87547 12801b50aa4afac7394c3ad553bab40c ""
   "./convective_env_masses-eps-converted-to.pdf" 1466685733 12080 ac27a5105a361da4dcd58c1f5b891ad1 ""
   "./convective_env_masses.eps" 1466685651 93337 d79007a7c69b53d4d2652ab499521c0b ""
-  "./ms.out" 1466687523 822 ef0cc873f5e9eeb80f18bfee7c0c9c3f ""
+  "./ms.out" 1467021393 822 ef0cc873f5e9eeb80f18bfee7c0c9c3f ""
   "./radius_bump-eps-converted-to.pdf" 1461756293 12451 c171ffc955679abb37a2c8e8b553f50a ""
   "./radius_bump.eps" 1461756275 90597 b606e66e0b3a312e43773c1eea97b2ad ""
   "/Users/grefe950/lib/tex/sty/aa.cls" 1381935061 66424 7bde39850ecb4535509db3caa3827be0 ""
@@ -161,9 +161,9 @@
   "convective_env_mass_difference.eps" 1466685651 87547 12801b50aa4afac7394c3ad553bab40c ""
   "convective_env_masses.eps" 1466685651 93337 d79007a7c69b53d4d2652ab499521c0b ""
   "defs.sty" 1461756271 546 df26f209fef22b298ac527819a3e2b3f ""
-  "ms.aux" 1466687523 20298 e215e78cc7548fc35bd8e2e6ae9fb7d9 ""
-  "ms.out" 1466687523 822 ef0cc873f5e9eeb80f18bfee7c0c9c3f ""
-  "ms.tex" 1466687520 79290 3a5d4a517fad0a2e40fa91b79937e0b4 ""
+  "ms.aux" 1467021393 20298 e215e78cc7548fc35bd8e2e6ae9fb7d9 ""
+  "ms.out" 1467021393 822 ef0cc873f5e9eeb80f18bfee7c0c9c3f ""
+  "ms.tex" 1467021388 79299 ff198dd37910719d5ae0fd19e08932af ""
   "radius_bump.eps" 1461756275 90597 b606e66e0b3a312e43773c1eea97b2ad ""
   (generated)
   "ms.out"
