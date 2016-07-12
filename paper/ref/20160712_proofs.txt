@@ -1,0 +1,109 @@
+Editors Forveille & Bertout,
+
+I have now uploaded the final version of my manuscript. The final version includes revisions following suggestions by the copy editor and several small corrections that I caught during a final proof reading, which are purely grammatical or intended to add clarification. In only one instance did I not execute a change suggested by the copy editor. This is detailed below along with a summary of each change made to the document. Page numbers refer to the page in the "referee" version.
+
+Thank you for considering my article for publication and thank you for the time and effort you devote to A&A. 
+
+Best regards,
+
+Gregory Feiden
+
+---
+
+Declined changes
+
+- Pg 21: (par 0, sen 0) The editor suggested changing "appear roughly" to "are roughly." However, I prefer "appear roughly" since "are" implies the stars are actually 4 - 5 Myr older, whereas models only suggest that they are 4 - 5 Myr older. I respectfully request to leave the phrasing as it is.
+
+
+Itemized changes
+
+- General: Removed grammatical contractions, as requested.
+
+- Pg 01: Title case changed as requested.
+
+- Pg 01: Superscripts added to institutional affiliations.
+
+- Pg 01: Email address changed to reflect an upcoming change in institutional affiliation.
+
+- Pg 01: Version adjusted to reflect acceptance notice on 27 June 2016.
+
+- Pg 01: (abs, sen 2) added "median" in front of age in sentence 2.
+
+- Pg 01: (abs, sen 2) "Association" --> "association" in sentence 2.
+
+- Pg 01: (abs, sen 5) "of order" --> "approximately" per copy editor's request.
+
+- Pg 01: (abs, sen 5) removed italics from "a priori" per copy editor's request.
+
+- Pg 01: (abs, sen 5) "equipartition" --> "thermal equipartition" so to add delineate between thermal and mechanical equipartition estimates.
+
+- Pg 01: (abs, sen 7) "suggest this region" --> "suggest that this region" per editor's request.
+
+- Pg 02: (par 2, sen 2) "HR" --> "Hertzsprung-Russell".
+
+- Pg 02: (par 2, sen 2) "by factor" --> "by a factor"
+
+- Pg 02: (par 2, sen 2) ""as compared to" --> "than"
+
+- Pg 03: (par 3, sen 3) removed italics from "a priori" per copy editor's request.
+
+- Pg 04: Section heading case.
+
+- Pg 05: (par 1, sen 4) "equipartition" --> "thermal equipartition".
+
+- Pg 06: (par 1, sen 4) "of order" --> "approximately" per copy editor's request.
+
+- Pg 06: (par 2, sen 1) "[m/H] = 0" --> "[m/H] = 0.0 dex".
+
+- Pg 06: Section heading case.
+
+- Pg 08: Subsection heading case.
+
+- Pg 08: (par 4, sen 2) "data is" --> "data are".
+
+- Pg 08: (par 4, sen 2) "and against" --> ", which is plotted against".
+
+- Pg 08: (par 4, sen 3) "corresponding A-" --> "corresponding to A-".
+
+- Pg 10: Subsection heading case.
+
+- Pg 12: (par 0, sen 0) removed italics from "a priori" per copy editor's request.
+
+- Pg 12: Subsection heading case.
+
+- Pg 13: (Fig 4 caption, sen 1) "envelopes" --> "envelope".
+
+- Pg 14: (par 1, sen 2) "Note that" --> "It should be noted that"
+
+- Pg 14: (par 2, sen 2) removed emphasis from "radiative core mass" per editor's request.
+
+- Pg 14: (footnote 1) "due to the fact that" --> "occurs because"
+
+- Pg 16: Subsection heading case.
+
+- Pg 18: (par 1, sen 5) "equipartition" --> "thermal equipartition"
+
+- Pg 18: Subsection heading case.
+
+- Pg 19: (par 1, sen 1) "halting" --> "halting the"
+
+- Pg 19: Subsection heading case.
+
+- Pg 20: (Fig 6 caption, sen 1) "at 10 Myr" to "at 5 and 10 Myr"
+
+- Pg 20: (Fig 6 caption, sen 2) "(dashed blue lines)" --> "(dashed black lines)".
+
+- Pg 20: (par 1) all temperatures reformatted with "\," thousands position separator.
+
+- Pg 21: (par 1, sen 2) removed ":"
+
+- Pg 21: (list) "," --> ";" to conclude each point.
+
+- Pg 21: (par 1, sen 3) removed italics from "a priori" per copy editor's request.
+
+- Pg 21: (par 2, sen 3) "solidify" --> "solidly identify"
+
+- Pg 22: (ack, sen 1) "as well as" --> "and also"
+
+- Pg 22: (ack, sen 2) "for posing" --> "who posed"
+
