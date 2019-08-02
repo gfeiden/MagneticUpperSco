@@ -1,6 +1,6 @@
 # A Consistent 10 Myr Age for Upper Scorpius
 
-Files and notebooks related to Feiden (2016, A&amp;A, in press)
+Files and notebooks related to Feiden ([2016, A&amp;A, 593, A99](https://ui.adsabs.harvard.edu/abs/2016A%26A...593A..99F/abstract)). 
 
 ## Abstract
 
@@ -27,10 +27,12 @@ These results suggest that magnetic inhibition of convection plays an important
 role in the early evolution of low-mass stars and that it may be responsible for 
 noted age discrepancies in young stellar populations.
 
-Submitted: 21 Oct 2016; Accepted: 27 Jun 2016
+Submitted: 21 Oct 2016; Accepted: 27 Jun 2016; Published: 30 Sep 2016
 
 ## Reference
 
-The manuscript has been nominally accepted to Astronomy & Astrophysics. A pre-print 
-may be downloaded from the [arXiv/astro-ph](http://arxiv.org/abs/1604.08036).
+The manuscript is published with Astronomy & Astrophysics (vol. 593, id A99) and can be downloaded from
+[A&A](https://www.aanda.org/articles/aa/abs/2016/09/aa27613-15/aa27613-15.html),
+the [arXiv](http://arxiv.org/abs/1604.08036), or 
+[NASA/SAO ADS](https://ui.adsabs.harvard.edu/abs/2016A%26A...593A..99F/abstract).
 
