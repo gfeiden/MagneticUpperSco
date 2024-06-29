@@ -2,6 +2,13 @@
 
 Files and notebooks related to Feiden ([2016, A&amp;A, 593, A99](https://ui.adsabs.harvard.edu/abs/2016A%26A...593A..99F/abstract)). 
 
+## Caution
+
+There are known issues with model isochrones at very young ages (below 10 Myr). Proceed with 
+caution. Updated models that rectify known issues are available from the author. Email
+[gregory.feiden@ung.edu](mailto:gregory.feiden@ung.edu) for updated model mass tracks or 
+isochrones.
+
 ## Abstract
 
 When determining absolute ages of identifiably young stellar populations, results 
